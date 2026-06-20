@@ -209,8 +209,7 @@ header .brand-name {
   min-height: 90vh;
   display: flex;
   align-items: flex-start;
-  padding-top: 180px;
-  padding-bottom: 120px;
+  padding: 110px 20px 100px;
   overflow: hidden;
 }
 
