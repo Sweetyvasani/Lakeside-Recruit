@@ -52,21 +52,24 @@ html, body {
 }
 
 /* Soft blueprint texture overlay */
-recruit-hero .hero-overlay {
+.recruit-hero .hero-overlay {
   position: absolute;
   inset: 0;
   background: radial-gradient(circle at 30% 40%, rgba(255,255,255,0.05), transparent 60%);
   pointer-events: none;
 }
 
-recruit-hero .hero-content {
+.recruit-hero .hero-content {
   position: relative;
   max-width: 900px;
   margin: 0 auto;
   text-align: left;
   z-index: 2;
-  animation: fadeUp 0.8s ease forwards;
+  
   opacity: 0;
+  transform: translateY(25px);
+
+  animation: fadeUp 0.8s ease forwards;
 }
 
 @keyframes fadeUp {
@@ -82,7 +85,7 @@ recruit-hero .hero-content {
   min-height: 90vh;
 }
 
-recruit-hero .hero-eyebrow {
+.recruit-hero .hero-eyebrow {
   display: inline-block;
   font-size: 15px;
   letter-spacing: 2px;
@@ -104,7 +107,7 @@ recruit-hero .hero-eyebrow {
   display: block;
 }
 
-recruit-hero .hero-subtext {
+.recruit-hero .hero-subtext {
   font-size: 18px;
   line-height: 1.7;
   opacity: 0.9;
@@ -112,14 +115,14 @@ recruit-hero .hero-subtext {
   max-width: 680px;
 }
 
-recruit-hero .hero-audience {
+.recruit-hero .hero-audience {
   font-size: 15px;
   opacity: 0.7;
   margin-bottom: 42px;
 }
 
 /* Buttons */
-recruit-hero .hero-buttons {
+.recruit-hero .hero-buttons {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -178,7 +181,7 @@ recruit-hero .hero-buttons {
 }
 
 /* Gradient divider */
-recruit-hero .hero-divider {
+.recruit-hero .hero-divider {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -193,7 +196,7 @@ recruit-hero .hero-divider {
     padding: 100px 20px 80px;
   }
 
-  recruit-hero .hero-bg-word {
+  .recruit-hero .hero-bg-word {
     font-size: 60px;
     right: 20px;
   }
