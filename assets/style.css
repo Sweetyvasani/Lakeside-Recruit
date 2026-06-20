@@ -272,7 +272,7 @@ header .brand-name {
   font-weight: 600;
   letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
 .recruit-hero h1 {
@@ -307,7 +307,7 @@ header .brand-name {
   font-weight:600;
   color:#d4a73f;
   margin-bottom:24px;
-  color: rgba(255,255,255,0.85);
+  color: #dfe6ef;
 }
 
 /* Buttons */
@@ -315,7 +315,7 @@ header .brand-name {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 @media (max-width: 768px) {
@@ -363,12 +363,11 @@ header .brand-name {
   font-size: 120px;
   font-weight: 700;
   letter-spacing: 8px;
-  color: rgba(255,255,255,0.06);
+  color: rgba(255,255,255,0.04);
   z-index: 1;
   pointer-events: none;
   user-select: none;
-  opacity: 0.02;
-}
+  }
 
 /* Gradient divider */
 .recruit-hero .hero-divider {
