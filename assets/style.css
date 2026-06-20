@@ -209,7 +209,8 @@ header .brand-name {
   min-height: 75vh;
   display: flex;
   align-items: flex-start;
-  padding: 110px 20px 80px;
+   padding-top: 90px;
+  padding-bottom: 60px;
   overflow: hidden;
 }
 
@@ -303,9 +304,12 @@ header .brand-name {
 }
 
 .hero-tagline{
+  display: inline-block;
   font-size:22px;
   font-weight:700;
   color:#d4a73f;
+  border-left: 4px solid #d4a73f;
+  padding-left: 15px;
   margin-bottom:24px;
   color: #dfe6ef;
 }
