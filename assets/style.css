@@ -306,13 +306,12 @@ header .brand-name {
 .hero-tagline{
   display: inline-block;
   font-size:22px;
-  font-weight:700;
+  font-weight:600;
   color:#d4a73f;
-  border-left: 4px solid #d4a73f;
-  padding-left: 15px;
-  margin-bottom:24px;
-  color: #dfe6ef;
-}
+  border-left: 3px solid #d4a73f;
+  padding-left: 18px;
+  margin: 25px 0 35px;
+  }
 
 /* Buttons */
 .recruit-hero .hero-buttons {
