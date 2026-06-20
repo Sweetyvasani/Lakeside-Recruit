@@ -111,6 +111,91 @@ body {
   padding-top: 70px; /* adjust depending on navbar height */
 }
 
+/* ================== MOBILE NAV + HERO TWEAKS (append only) ================== */
+
+/* mobile hamburger button (hidden on desktop) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 8px;
+  color: #0a2540;
+  background: transparent;
+  border-radius: 6px;
+}
+
+/* mobile menu container (hidden by default) */
+.mobile-nav {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  top: 72px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height .32s ease, opacity .24s ease;
+  z-index: 1500;
+}
+
+.mobile-nav.open {
+  max-height: 520px;
+  opacity: 1;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mobile-nav a {
+  display: block;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: #0a2540;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.mobile-nav a:hover {
+  background: rgba(20,184,166,0.06);
+  color: #14b8a6;
+}
+
+/* Small-screen overrides */
+@media (max-width: 768px) {
+  .menu-toggle { display: block; }
+  header nav { display: none !important; }
+  header img { height: 48px; }
+  header .brand-name { font-size: 18px; margin-left: 8px; }
+  body { padding-top: 62px; }
+  .mobile-nav { top: 62px; left: 10px; right: 10px; }
+
+
+  /* Fix brand overflow on mobile */
+header .brand {
+  flex-shrink: 1;   /* allow brand to shrink */
+  min-width: 0;     /* prevent overflow in flex */
+}
+
+header .brand-name {
+  font-size: 15px;   /* smaller so full name fits */
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+.menu-toggle {
+  flex-shrink: 0;   /* keep menu icon visible */
+}
 
 /* ===============================
    Hero Section - Lakeside Recruit
