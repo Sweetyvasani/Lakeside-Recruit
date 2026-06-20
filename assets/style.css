@@ -206,10 +206,10 @@ header .brand-name {
   position: relative;
   background-color: #0B1F3A;
   color: #ffffff;
-  min-height: 90vh;
+  min-height: 75vh;
   display: flex;
   align-items: flex-start;
-  padding: 110px 20px 100px;
+  padding: 110px 20px 80px;
   overflow: hidden;
 }
 
