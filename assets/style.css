@@ -209,8 +209,8 @@ header .brand-name {
   min-height: auto;
   display: flex;
   align-items: flex-start;
-   padding-top: 90px;
-  padding-bottom: 60px;
+   padding-top: 30px;
+  padding-bottom: 50px;
   overflow: hidden;
 }
 
@@ -237,9 +237,9 @@ header .brand-name {
 .recruit-hero .hero-content {
   position: relative;
   max-width: 1200px;
-  width: 100%
+  width: 100%;
   margin: 0 auto;
-  padding-left: 140px;
+  padding-left: 80px;
   z-index: 2;
   
   opacity: 0;
@@ -362,10 +362,10 @@ header .brand-name {
 /* Background oversized word */
 .hero-bg-word {
   position: absolute;
-  bottom: 80px;
+  bottom: 50px;
   right: 60px;
-  font-size: 120px;
-  font-weight: 140px;
+  font-size: 140px;
+  font-weight: 700;
   letter-spacing: 8px;
   color: rgba(255,255,255,0.04);
   z-index: 1;
