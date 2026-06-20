@@ -27,6 +27,91 @@ html, body {
   overflow-x: hidden;
 }
 
+/* ================== HEADER ================== */
+header {
+  position: fixed;          
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;   /* keeps logo + text aligned vertically */
+  justify-content: space-between;   /* ✅ logo left, nav right */
+  background: #fff;        /* White background */
+  padding: 10px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+  box-sizing: border-box;   /* ✅ include padding inside width */
+}
+
+/* Brand block (logo + text) */
+header .brand {
+  display: flex;
+  align-items: center;   /* ✅ keeps text vertically centered with logo */
+  text-decoration: none;
+  flex-shrink: 0;   /* ✅ logo never shrinks */
+}
+
+header img {
+  height: 64px;   /* mobile / default */
+  width: auto;
+}
+
+@media (min-width: 1024px) {
+  header img {
+    height: 56px; /* desktop */
+  }
+}
+
+header .brand-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001F54;   /* Navy text */
+  margin-left: 10px;
+  white-space: nowrap;   /* ✅ keeps text on one line */
+}
+
+/* navigation menu */
+
+header nav {
+  flex: 1;               /* ✅ nav takes remaining space */
+  display: flex;
+  justify-content: flex-end; /* ✅ push items to the right */
+  min-width: 0;          /* ✅ allow shrinking */
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;       /* ✅ prevent overflow by wrapping */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 20px;
+  white-space: nowrap;   /* ✅ keep items on one line each */
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 15px;  /* ✅ slightly smaller text */
+  font-weight: 500;
+  color: #001F54;   /* Navy text */
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #14b8a6; /* ✅ Teal hover */
+  border-bottom: 2px solid #14b8a6; /* ✅ Teal underline */
+  padding-bottom: 2px;
+}
+
+/* Push page content down so it doesn’t hide under sticky nav */
+body {
+  padding-top: 70px; /* adjust depending on navbar height */
+}
+
+
 /* ===============================
    Hero Section - Lakeside Recruit
 ================================ */
