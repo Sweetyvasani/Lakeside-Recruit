@@ -196,6 +196,7 @@ header .brand-name {
 .menu-toggle {
   flex-shrink: 0;   /* keep menu icon visible */
 }
+}
 
 /* ===============================
    Hero Section - Lakeside Recruit
