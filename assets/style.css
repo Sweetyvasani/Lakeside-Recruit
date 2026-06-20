@@ -358,10 +358,10 @@ header .brand-name {
 /* Background oversized word */
 .hero-bg-word {
   position: absolute;
-  bottom: 120px;
-  right: 80px;
+  bottom: 80px;
+  right: 60px;
   font-size: 120px;
-  font-weight: 700;
+  font-weight: 140px;
   letter-spacing: 8px;
   color: rgba(255,255,255,0.04);
   z-index: 1;
