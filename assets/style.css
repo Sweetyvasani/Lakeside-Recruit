@@ -537,43 +537,68 @@ grid-template-columns: 1fr;
 
 .industries-section .section-intro {
     text-align: center;
-    color: rgba(255,255,255,0.75);
+    color: rgba(255,255,255,0.82);
     max-width: 850px;
     margin: 0 auto 60px;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.8;
 }
 
 
 .industry-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
 }
 
 .industry-card {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 14px;
-    padding: 32px 24px;
-    text-align: center;
-    transition: all 0.3s ease;
-    min-height: 120px;
+    position: relative;
+
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,0.08) 0%,
+        rgba(255,255,255,0.04) 100%
+    );
+
+    border: 1px solid rgba(212,167,63,0.18);
+
+    border-radius: 16px;
+
+    padding: 30px 22px;
+
+    min-height: 115px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+
+    transition: all 0.35s ease;
+}
+
+.industry-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55px;
+    height: 3px;
+    background: #D4A73F;
+    border-radius: 0 0 4px 4px;
 }
 
 .industry-card:hover {
-    transform: translateY(-6px);
-    border-color: rgba(212,167,63,0.45);
-    background: rgba(255,255,255,0.06);
+    transform: translateY(-8px);
+    border-color: rgba(212,167,63,0.55);
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.25),
+        0 0 0 1px rgba(212,167,63,0.12);
 }
 
 .industry-card h3 {
     color: #ffffff;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 1.4;
     margin: 0;
     font-weight: 600;
