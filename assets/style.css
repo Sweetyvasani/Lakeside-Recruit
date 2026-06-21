@@ -277,7 +277,7 @@ header .brand-name {
   }
 
 .recruit-hero h1 {
-  font-size: 68px;
+  font-size: 72px;
   font-weight: 600;
   line-height: 1.08;
   margin-bottom: 32px;
@@ -303,15 +303,13 @@ header .brand-name {
   margin-bottom: 42px;
 }
 
-.hero-tagline{
-  display: inline-block;
-  font-size:22px;
-  font-weight:600;
-  color:#d4a73f;
-  border-left: 3px solid #d4a73f;
-  padding-left: 18px;
-  margin: 25px 0 35px;
-  }
+.hero-tagline {
+  font-size: 28px;
+  font-weight: 600;
+  color: #D4A73F;
+  margin: 18px 0 30px;
+  line-height: 1.3;
+}
 
 /* Buttons */
 .recruit-hero .hero-buttons {
