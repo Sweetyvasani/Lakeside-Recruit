@@ -391,5 +391,99 @@ header .brand-name {
     font-size: 60px;
     right: 20px;
   }
+
+
+/* ===============================
+WHY LAKESIDE RECRUIT
+================================ */
+
+.why-recruit {
+background: #ffffff;
+padding: 100px 20px;
+}
+
+.why-recruit .container {
+max-width: 1200px;
+margin: 0 auto;
+text-align: center;
+}
+
+.section-eyebrow {
+display: inline-block;
+color: #D4A73F;
+font-size: 13px;
+font-weight: 600;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.why-recruit h2 {
+font-size: 48px;
+line-height: 1.2;
+color: #0B1F3A;
+margin-bottom: 30px;
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.section-intro {
+max-width: 850px;
+margin: 0 auto 70px;
+font-size: 18px;
+line-height: 1.8;
+color: #555;
+}
+
+.recruit-pillars {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+}
+
+.pillar-card {
+background: #ffffff;
+border: 1px solid #e5e7eb;
+border-radius: 18px;
+padding: 40px 30px;
+transition: all 0.3s ease;
+}
+
+.pillar-card:hover {
+transform: translateY(-6px);
+box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.pillar-card h3 {
+color: #0B1F3A;
+margin-bottom: 18px;
+font-size: 24px;
+}
+
+.pillar-card p {
+color: #666;
+line-height: 1.8;
+font-size: 16px;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+.why-recruit {
+padding: 80px 20px;
+}
+
+.why-recruit h2 {
+font-size: 34px;
+}
+
+.recruit-pillars {
+grid-template-columns: 1fr;
+}
+
+}
+
 }
 
