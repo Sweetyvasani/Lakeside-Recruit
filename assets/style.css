@@ -538,16 +538,16 @@ grid-template-columns: 1fr;
 .industries-section .section-intro {
     text-align: center;
     color: rgba(255,255,255,0.75);
-    max-width: 900px;
+    max-width: 850px;
     margin: 0 auto 60px;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.8;
 }
 
 .industry-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 22px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
 }
 
 .industry-card {
