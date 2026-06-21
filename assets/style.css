@@ -431,7 +431,7 @@ margin-right: auto;
 
 .section-intro {
 max-width: 850px;
-margin: 0 auto 50px;
+margin: 0 auto 35px;
 font-size: 18px;
 line-height: 1.8;
 color: #555;
@@ -440,7 +440,7 @@ color: #555;
 .recruit-pillars {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-gap: 30px;
+gap: 24px;
 }
 
 .pillar-card {
