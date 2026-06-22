@@ -791,10 +791,10 @@ border-color: #D4A73F;
 .process-section h2 {
     text-align: center;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 1.15;
     margin-bottom: 60px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .process-timeline {
@@ -823,8 +823,8 @@ border-color: #D4A73F;
     align-items: center;
     justify-content: center;
 
-    font-weight: 800;
-    font-size: 15px;
+    font-weight: 900;
+    font-size: 17px;
 }
 
 .timeline-step h3 {
