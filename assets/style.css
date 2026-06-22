@@ -554,11 +554,13 @@ grid-template-columns: 1fr;
 
 .industry-card {
     position: relative;
-    height: 220px;
+    height: 250px;
     overflow: hidden;
     border-radius: 14px;
     cursor: pointer;
+  border: 1px solid rgba(255,255,255,.08);
     box-shadow: 0 10px 25px rgba(0,0,0,.18);
+  transition: all .4s ease;
 }
 
 .industry-card img {
@@ -604,6 +606,7 @@ grid-template-columns: 1fr;
 
 .industry-card:hover {
     transform: translateY(-6px);
+  border-color: rgba(212,167,63,.45);
 }
 
 .industry-card:hover .industry-overlay {
