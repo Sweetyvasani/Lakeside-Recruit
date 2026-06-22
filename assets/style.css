@@ -277,12 +277,13 @@ header .brand-name {
   }
 
 .recruit-hero h1 {
-  font-size: 100px;
+  font-size: 90px;
   font-weight: 600;
   line-height: 1.08;
   margin-bottom: 42px;
   letter-spacing: -1px;
   max-width: 1500px;
+  align-items: center;
 }
 
 .recruit-hero h1 span {
