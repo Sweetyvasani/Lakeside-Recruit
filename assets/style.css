@@ -649,3 +649,111 @@ padding-bottom: 28px;
 
 }
 
+
+/* ===============================
+   HIRING SOLUTIONS
+================================ */
+
+.solutions-section {
+    background: #ffffff;
+    padding: 100px 20px;
+}
+
+.solutions-section .container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.solutions-section .section-eyebrow {
+    display: block;
+    text-align: center;
+    color: #D4A73F;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.solutions-section h2 {
+    text-align: center;
+    color: #0B1F3A;
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 60px;
+}
+
+.solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.solution-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+
+    padding: 28px 24px;
+
+    min-height: 130px;
+
+    transition: all 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.solution-card i {
+    font-size: 18px;
+    color: #2C7BE5;
+    margin-bottom: 14px;
+}
+
+.solution-card h3 {
+    color: #0B1F3A;
+    font-size: 20px;
+    line-height: 1.35;
+    margin: 0;
+    font-weight: 600;
+}
+
+.solution-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #D4A73F;
+
+    box-shadow:
+        0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+
+    .solutions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .solutions-section {
+        padding: 80px 20px;
+    }
+
+    .solutions-section h2 {
+        font-size: 34px;
+    }
+
+    .solutions-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
