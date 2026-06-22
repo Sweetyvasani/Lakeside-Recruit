@@ -526,7 +526,7 @@ grid-template-columns: 1fr;
     display: block;
     text-align: center;
     color: #D4A73F;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -536,7 +536,7 @@ grid-template-columns: 1fr;
 .industries-section h2 {
     text-align: center;
     color: #ffffff;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 1.15;
     margin-bottom: 24px;
     max-width: 900px;
@@ -585,7 +585,7 @@ grid-template-columns: 1fr;
 
     background: linear-gradient(
         to top,
-        rgba(0,0,0,.75) 0%,
+        rgba(0,0,0,.78) 0%,
         rgba(0,0,0,.35) 45%,
         rgba(0,0,0,.15) 100%
     );
@@ -602,7 +602,7 @@ padding-bottom: 28px;
 
 .industry-overlay h3 {
     color: #fff;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.15;
     font-weight: 700;
     margin: 0;
