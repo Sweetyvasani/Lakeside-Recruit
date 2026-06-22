@@ -554,7 +554,7 @@ grid-template-columns: 1fr;
 
 .industry-card {
     position: relative;
-    height: 250px;
+    height: 230px;
     overflow: hidden;
     border-radius: 14px;
     cursor: pointer;
@@ -577,7 +577,7 @@ grid-template-columns: 1fr;
 
     background: linear-gradient(
         to top,
-        rgba(0,0,0,.78) 0%,
+        rgba(0,0,0,.75) 0%,
         rgba(0,0,0,.35) 45%,
         rgba(0,0,0,.15) 100%
     );
@@ -585,7 +585,7 @@ grid-template-columns: 1fr;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-
+padding-bottom: 28px;
     padding: 20px;
     text-align: center;
 
