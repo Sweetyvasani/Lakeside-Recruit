@@ -262,7 +262,7 @@ header .brand-name {
 .recruit-hero {
   display: flex;
   align-items: center;
-  min-height: 90vh;
+  min-height: 75vh;
 }
 
 .recruit-hero .hero-eyebrow {
@@ -281,10 +281,10 @@ header .brand-name {
   }
 
 .recruit-hero h1 {
-  font-size: 82px;
+  font-size: 72px;
   font-weight: 600;
   line-height: 1.08;
-  margin-bottom: 32px;
+  margin-bottom: 50px;
   letter-spacing: -1px;
   max-width: 1100px;
   text-align: center;
@@ -311,7 +311,7 @@ header .brand-name {
 }
 
 .hero-tagline {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   color: #D4A73F;
   margin: 18px 0 30px;
