@@ -209,7 +209,7 @@ header .brand-name {
   min-height: auto;
   display: flex;
   align-items: flex-start;
-   padding-top: 30px;
+   padding-top: 40px;
   padding-bottom: 50px;
   overflow: hidden;
 }
@@ -281,7 +281,7 @@ header .brand-name {
   }
 
 .recruit-hero h1 {
-  font-size: 70px;
+  font-size: 68px;
   font-weight: 600;
   line-height: 1.08;
   margin-bottom: 30px;
