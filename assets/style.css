@@ -269,7 +269,7 @@ header .brand-name {
   border-radius: 999px;
   background: rgba(212,167,63,0.08);
   color: #d4a73f;
-    font-size: 13px;
+    font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
     text-transform: uppercase;
@@ -277,7 +277,7 @@ header .brand-name {
   }
 
 .recruit-hero h1 {
-  font-size: 68px;
+  font-size: 100px;
   font-weight: 600;
   line-height: 1.08;
   margin-bottom: 42px;
