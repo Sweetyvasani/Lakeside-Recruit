@@ -817,13 +817,13 @@ border-color: #D4A73F;
 
     background: rgba(255,255,255,0.08);
 
-    color: #ffffff;
+    color: #D4A73F;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font-weight: 700;
+    font-weight: 800;
     font-size: 15px;
 }
 
