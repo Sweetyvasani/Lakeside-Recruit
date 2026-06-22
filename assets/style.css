@@ -549,7 +549,7 @@ grid-template-columns: 1fr;
 .industry-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 22px;
+    gap: 24px;
 }
 
 .industry-card {
