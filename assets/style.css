@@ -425,7 +425,7 @@ font-size: 16px;
 font-weight: 900;
 letter-spacing: 2px;
 text-transform: uppercase;
-margin-bottom: 18px;
+margin-bottom: 16px;
 }
 
 .why-recruit h2 {
@@ -794,6 +794,7 @@ border-color: #D4A73F;
     font-size: 40px;
     line-height: 1.15;
     margin-bottom: 60px;
+  font-weight: 600;
 }
 
 .process-timeline {
