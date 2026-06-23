@@ -440,7 +440,8 @@ each sector.        </p>
 
 </section>
 
-<!-- CONTACT US -->
+    <!-- CONTACT SECTION -->
+
 
 <section class="contact-section" id="contact">
 
@@ -459,25 +460,67 @@ each sector.        </p>
         <form class="contact-form">
 
             <div class="form-grid">
-                <input type="text" placeholder="Your Name">
-                <input type="text" placeholder="Company Name">
 
-                <input type="email" placeholder="Work Email">
-                <input type="tel" placeholder="Phone Number">
+                <div class="form-group">
+                    <label>Your Name *</label>
+                    <input type="text" placeholder="e.g. John Smith" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Company *</label>
+                    <input type="text" placeholder="e.g. ABC Manufacturing Pvt Ltd" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Work Email *</label>
+                    <input type="email" placeholder="e.g. john@company.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="e.g. +91 98765 43210">
+                </div>
+
             </div>
 
-            <textarea placeholder="Role, location, experience level, number of positions, or any specific hiring challenges..."></textarea>
+            <div class="form-group">
+                <label>Message</label>
+
+                <textarea
+                placeholder="Tell us about your organization's needs, role you are hiring for, location, experience level, number of positions, or any specific hiring challenges..."></textarea>
+            </div>
+
+            <div class="consent-box">
+
+                <input
+                    type="checkbox"
+                    id="consent"
+                    required>
+
+                <label for="consent">
+
+                    I agree that Lakeside Recruit may store my data and contact me regarding my inquiry.
+                    We will never share your information with third parties.
+
+                    <a href="#">Privacy Policy</a>
+
+                </label>
+
+            </div>
 
             <button type="submit" class="contact-btn">
                 Discuss My Hiring Need
             </button>
 
+            <p class="contact-email">
+                Or email us directly at
+                <a href="mailto:hr@lakesideasia.com">
+                    hr@lakesideasia.com
+                </a>
+            </p>
+
         </form>
 
     </div>
-
-    <p class="contact-note">
-        We typically respond within one business day.
-    </p>
 
 </section>
