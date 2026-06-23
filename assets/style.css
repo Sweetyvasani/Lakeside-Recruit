@@ -895,3 +895,135 @@ border-color: #D4A73F;
 
 }
 
+/* ===============================
+   CONTACT CTA
+================================ */
+
+.contact-cta-section {
+    background: #F8F8F6;
+    padding: 100px 20px;
+}
+
+.contact-cta-section .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-cta-section .section-eyebrow {
+    display: block;
+    color: #D4A73F;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.contact-cta-section h2 {
+    color: #0B1F3A;
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.contact-intro {
+    color: #4F5B6A;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 0 auto 50px;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.form-row input,
+.form-row textarea {
+    width: 100%;
+    padding: 16px 18px;
+
+    border: 1px solid #D8DCE2;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-family: inherit;
+
+    background: #ffffff;
+    color: #0B1F3A;
+
+    transition: all 0.3s ease;
+}
+
+.form-row input {
+    height: 58px;
+}
+
+.form-row textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.form-row input:focus,
+.form-row textarea:focus {
+    outline: none;
+    border-color: #D4A73F;
+    box-shadow: 0 0 0 3px rgba(212,167,63,0.12);
+}
+
+.contact-submit {
+    background: #D4A73F;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 16px 42px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-submit:hover {
+    background: #C19634;
+    transform: translateY(-2px);
+}
+
+/* ===============================
+   MOBILE
+================================ */
+
+@media (max-width: 768px) {
+
+    .contact-cta-section {
+        padding: 80px 20px;
+    }
+
+    .contact-cta-section h2 {
+        font-size: 34px;
+    }
+
+    .contact-intro {
+        font-size: 16px;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .contact-submit {
+        width: 100%;
+    }
+
+}
