@@ -265,8 +265,8 @@ header .brand-name {
   min-height: 75vh;
 }
 
-.section-eyebrow,
-.section-tag {
+
+.recruit-hero .hero-eyebrow {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -420,6 +420,21 @@ margin: 0 auto;
 text-align: center;
 }
 
+.why-recruit .section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: 1px solid rgba(212,167,63,0.35);
+  border-radius: 999px;
+  background: rgba(212,167,63,0.08);
+  color: #d4a73f;
+    font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
 
 .why-recruit h2 {
 font-size: 44px;
@@ -515,7 +530,21 @@ grid-template-columns: 1fr;
     margin: 0 auto;
 }
 
-
+.industries-section .section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: 1px solid rgba(212,167,63,0.35);
+  border-radius: 999px;
+  background: rgba(212,167,63,0.08);
+  color: #d4a73f;
+    font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
 
 .industries-section h2 {
     text-align: center;
@@ -648,6 +677,21 @@ padding-bottom: 28px;
     margin: 0 auto;
 }
 
+.solutions-section .section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: 1px solid rgba(212,167,63,0.35);
+  border-radius: 999px;
+  background: rgba(212,167,63,0.08);
+  color: #d4a73f;
+    font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
 
 .solutions-section h2 {
     text-align: center;
@@ -751,7 +795,21 @@ border-color: #D4A73F;
     margin: 0 auto;
 }
 
-
+.process-section .section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: 1px solid rgba(212,167,63,0.35);
+  border-radius: 999px;
+  background: rgba(212,167,63,0.08);
+  color: #d4a73f;
+    font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
 
 .process-section h2 {
     text-align: center;
@@ -871,6 +929,21 @@ border-color: #D4A73F;
     text-align: center;
 }
 
+.contact-section .section-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: 1px solid rgba(212,167,63,0.35);
+  border-radius: 999px;
+  background: rgba(212,167,63,0.08);
+  color: #d4a73f;
+    font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
 
 .contact-section h2 {
     font-size: 44px;
