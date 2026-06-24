@@ -208,8 +208,8 @@ header .brand-name {
   color: #ffffff;
   min-height: auto;
   display: block;
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 90px;
+  padding-bottom: 100px;
   overflow: hidden;
     align-items: center;
   min-height: 75vh;
@@ -295,7 +295,7 @@ margin-bottom: 60px;
   font-size: 20px;
   line-height: 1.8;
   opacity: 0.9;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   max-width: 1000px;
     text-align: center;
   color: rgba(255,255,255,0.82);
@@ -311,7 +311,7 @@ margin-bottom: 60px;
   font-size: 24px;
   font-weight: 600;
   color: #D4A73F;
-  margin: 15px 0 20px;
+  margin: 20px 0 25px;
   line-height: 1.3;
   text-align: center;
 }
@@ -320,9 +320,7 @@ margin-bottom: 60px;
 .recruit-hero .hero-buttons {
   display: flex;
   justify-content: center;
-  gap: 24px;
-  flex-wrap: wrap;
-  margin-top: 42px;
+   margin-top: 42px;
 }
 
 @media (max-width: 768px) {
@@ -333,18 +331,19 @@ margin-bottom: 60px;
 }
 
 .recruit-hero .btn-primary {
-  background-color: #2bb673;
+  background-color: #D4A73F;
   color: #ffffff;
-  padding: 14px 26px;
+  padding: 14px 30px;
   border-radius: 6px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.3s ease;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 .recruit-hero .btn-primary:hover {
-  background-color: #239a60;
+  background-color: #c19633;
+  transform: translateY(-2px);
 }
 
 .recruit-hero .btn-secondary {
