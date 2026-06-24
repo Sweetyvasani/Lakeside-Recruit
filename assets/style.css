@@ -555,7 +555,11 @@ margin-bottom: 0;
 }
 
 .highlight-title {
-    margin-top: 4px;
+  font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;    /* space between icon and heading */
+  margin-bottom: 14px;   /* space between heading and subtitle */
+   line-height: 1.2;
 }
 
 .highlight-number {
