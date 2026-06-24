@@ -207,11 +207,12 @@ header .brand-name {
   background-color: #0B1F3A;
   color: #ffffff;
   min-height: auto;
-  display: flex;
-  align-items: flex-start;
-   padding-top: 40px;
-  padding-bottom: 50px;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 80px;
   overflow: hidden;
+    align-items: center;
+  min-height: auto;
 }
 
 /* Subtle grid overlay */
@@ -240,7 +241,7 @@ header .brand-name {
   width: 100%;
   margin: 0 auto;
     z-index: 2;
-
+margin-bottom: 60px;
   text-align: center;
 
   display: flex;
@@ -257,12 +258,6 @@ header .brand-name {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.recruit-hero {
-  display: flex;
-  align-items: center;
-  min-height: 75vh;
 }
 
 
@@ -410,11 +405,14 @@ header .brand-name {
 ================================================== */
 
 .hero-features {
+  position: relative;
+  z-index: 2;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     max-width: 1100px;
-    margin: 80px auto 0;
+     margin: 0 auto;
+  padding: 0 20px;
 }
 
 .hero-feature-card {
@@ -443,13 +441,13 @@ header .brand-name {
 
 .feature-icon i {
     font-size: 1.2rem;
-    color: var(--navy);
+     color: #0B1F3A;
 }
 
 .hero-feature-card h3 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--navy);
+     color: #0B1F3A;
     margin-bottom: 10px;
 }
 
