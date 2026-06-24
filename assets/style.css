@@ -554,11 +554,10 @@ margin-bottom: 0;
     line-height: 1.3;
 }
 
-.highlight-title {
+.highlight-card .highlight-title {
   font-size: 17px;
     font-weight: 700;
-    margin-top: 10px;    /* space between icon and heading */
-  margin-bottom: 14px;   /* space between heading and subtitle */
+       margin: 12px 0 16px;
    line-height: 1.2;
 }
 
