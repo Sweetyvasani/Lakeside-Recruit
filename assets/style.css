@@ -207,11 +207,10 @@ header .brand-name {
   background-color: #0B1F3A;
   color: #ffffff;
     display: block;
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding-top: 60px;
+  padding-bottom: 80px;
   overflow: hidden;
-    align-items: center;
-  min-height: 70vh;
+      min-height: 70vh;
 }
 
 /* Subtle grid overlay */
@@ -363,16 +362,17 @@ margin-bottom: 0;
 /* Background oversized word */
 .hero-bg-word {
   position: absolute;
-  bottom: 60px;
-  right: 60px;
-  font-size: 180px;
-  opacity: 0.03;
-  font-weight: 700;
-  letter-spacing: 10px;
+  bottom: 120px;
+  right: 80px;
+  font-size: 220px;
+    font-weight: 700;
+  letter-spacing: 12px;
   color: rgba(255,255,255,0.08);
   z-index: 1;
   pointer-events: none;
   user-select: none;
+  text-transform: uppercase;
+  white-space: nowrap;
   }
 
 /* Gradient divider */
