@@ -206,11 +206,13 @@ header .brand-name {
   position: relative;
   background-color: #0B1F3A;
   color: #ffffff;
-    display: block;
+    display: flex;
   padding-top: 60px;
   padding-bottom: 80px;
   overflow: hidden;
       min-height: 70vh;
+    align-items: center;
+  justify-content: center;
 }
 
 /* Subtle grid overlay */
@@ -237,7 +239,6 @@ header .brand-name {
   position: relative;
   max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
     z-index: 2;
 margin-bottom: 0;
   text-align: center;
@@ -362,12 +363,12 @@ margin-bottom: 0;
 /* Background oversized word */
 .hero-bg-word {
   position: absolute;
-  bottom: 120px;
+  bottom: 80px;
   right: 80px;
   font-size: 220px;
     font-weight: 700;
   letter-spacing: 12px;
-  color: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.05);
   z-index: 1;
   pointer-events: none;
   user-select: none;
