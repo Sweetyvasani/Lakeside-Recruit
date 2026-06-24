@@ -515,13 +515,26 @@ margin-bottom: 0;
 
 .recruitment-snapshot {
         padding: 60px 0;
-    background: #f8f6f1;
+    background: #ffffff;
 }
 
 .snapshot-header {
     text-align: center;
     max-width: 900px;
     margin: 0 auto 70px;
+}
+
+.recruitment-snapshot .snapshot-features-wrap {
+    background: #0B1F3A;
+    border-radius: 24px;
+
+    padding: 35px;
+
+    max-width: 950px;
+    margin: 35px auto 40px;
+
+    display: flex;
+    justify-content: center;
 }
 
 .recruitment-snapshot .section-eyebrow {
