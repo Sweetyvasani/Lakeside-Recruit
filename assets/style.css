@@ -212,7 +212,7 @@ header .brand-name {
   padding-bottom: 80px;
   overflow: hidden;
     align-items: center;
-  min-height: auto;
+  min-height: 75vh;
 }
 
 /* Subtle grid overlay */
