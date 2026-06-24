@@ -363,7 +363,7 @@ margin-bottom: 0;
 /* Background oversized word */
 .hero-bg-word {
   position: absolute;
-  bottom: 80px;
+  bottom: 50px;
   right: 80px;
   font-size: 220px;
     font-weight: 700;
