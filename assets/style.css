@@ -612,17 +612,56 @@ text-align: center;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+
   padding: 10px 18px;
+
+  background: transparent !important;
+
   border: 2px solid #D4A73F;
   border-radius: 999px;
-  background: transparent;
-color: #D4A73F;
-    font-size: 18px;
+
+  color: #D4A73F;
+
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+  text-transform: uppercase;
+
+  margin-bottom: 8px;
+}
+
+.why-recruit .section-eyebrow::before {
+  content: "";
+
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+  background: #D4A73F;
+
+  animation: pulseGold 2s infinite;
+}
+
+@keyframes pulseGold {
+
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(212, 167, 63, 0.7);
   }
+
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 8px rgba(212, 167, 63, 0);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(212, 167, 63, 0);
+  }
+
+}
+
 
 .why-recruit h2 {
 font-size: 44px;
