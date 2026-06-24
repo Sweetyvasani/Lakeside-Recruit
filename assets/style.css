@@ -612,7 +612,7 @@ text-align: center;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 6px;
 
   padding: 10px 18px;
 
@@ -632,8 +632,8 @@ text-align: center;
 }
 
 .eyebrow-dot {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
 
   background: #D4A73F;
   border-radius: 50%;
