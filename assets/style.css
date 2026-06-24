@@ -400,82 +400,92 @@ margin-bottom: 60px;
   }
 
 
-/* ==================================================
-   HERO FEATURE CARDS
-================================================== */
+/* ===================================
+   Recruitment Snapshot
+=================================== */
 
-.hero-features {
-  position: relative;
-  z-index: 2;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    max-width: 900px;
-     margin: 0 auto;
-  padding: 0 20px;
+.recruitment-snapshot {
+    padding: 100px 0;
+    background: #f8f6f1;
 }
 
-.hero-feature-card {
-    background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 16px;
-    padding: 28px 24px;
+.snapshot-header {
     text-align: center;
-  backdrop-filter: blur(8px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    max-width: 900px;
+    margin: 0 auto 70px;
+}
+
+.snapshot-header h2 {
+    font-size: 52px;
+    line-height: 1.15;
+    color: #0B1F3A;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.snapshot-header p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #5f6773;
+}
+
+/* ==========================
+   Top Row
+========================== */
+
+.snapshot-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.snapshot-card {
+    background: #ffffff;
+    border: 1px solid #e8edf4;
+    border-radius: 18px;
+    padding: 40px 30px;
+    text-align: center;
     transition: all 0.3s ease;
 }
 
-.hero-feature-card:hover {
-    transform: translateY(-4px);
-  border-color: rgba(212,167,63,0.5);
-    background: rgba(255,255,255,0.06);
+.snapshot-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(11,31,58,0.08);
 }
 
-.feature-icon {
-    width: 56px;
-    height: 56px;
-    margin: 0 auto 18px;
+.snapshot-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 22px;
+    border-radius: 50%;
+    background: rgba(212,167,63,0.12);
     display: flex;
     align-items: center;
     justify-content: center;
-     background: rgba(212,167,63,0.12);
-    border: 1px solid rgba(212,167,63,0.25);
-    border-radius: 50%;
 }
 
-.feature-icon i {
-    font-size: 1.2rem;
-     color: #d4a73f;
+.snapshot-icon i {
+    color: #D4A73F;
+    font-size: 22px;
 }
 
-.hero-feature-card h3 {
-    font-size: 1.15rem;
-    font-weight: 600;
-     color: #ffffff;
-    margin-bottom: 10px;
+.snapshot-card h3 {
+    font-size: 24px;
+    color: #0B1F3A;
+    margin-bottom: 12px;
 }
 
-.hero-feature-card p {
-    font-size: 0.9rem;
-    color: rgba(255,255,255,0.72);
-    line-height: 1.6;
-    margin: 0;
+.snapshot-card p {
+    color: #5f6773;
+    line-height: 1.7;
 }
 
+/* ==========================
+   Bottom Row
+========================== */
 
-/* ==================================================
-   METRICS SECTION
-================================================== */
-
-.recruit-metrics {
-    background: #f8f6f1;
-    padding: 50px 0;
-    border-top: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
-}
-
-.metrics-grid {
+.snapshot-metrics {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
@@ -483,57 +493,51 @@ margin-bottom: 60px;
 
 .metric-box {
     background: #ffffff;
-    border-radius: 14px;
-    padding: 28px 20px;
+    border-radius: 16px;
+    padding: 35px 20px;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    border: 1px solid #edf1f5;
 }
 
 .metric-box h3 {
-    font-size: 2.1rem;
-    font-weight: 700;
-    color: var(--navy);
+    color: #0B1F3A;
+    font-size: 40px;
     margin-bottom: 8px;
-    line-height: 1.2;
+    font-weight: 700;
 }
 
 .metric-box p {
-    font-size: 0.95rem;
-    color: #555;
-    margin: 0;
-    line-height: 1.5;
+    color: #667085;
+    font-size: 15px;
 }
 
-
-/* ==================================================
-   RESPONSIVE
-================================================== */
+/* ==========================
+   Responsive
+========================== */
 
 @media (max-width: 991px) {
 
-    .hero-features {
+    .snapshot-features {
         grid-template-columns: 1fr;
-        max-width: 500px;
-        margin-top: 50px;
     }
 
-    .metrics-grid {
+    .snapshot-metrics {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .snapshot-header h2 {
+        font-size: 40px;
     }
 }
 
 @media (max-width: 576px) {
 
-    .metrics-grid {
+    .snapshot-metrics {
         grid-template-columns: 1fr;
     }
 
-    .metric-box h3 {
-        font-size: 1.8rem;
-    }
-
-    .hero-feature-card {
-        padding: 20px;
+    .snapshot-header h2 {
+        font-size: 32px;
     }
 }
 
