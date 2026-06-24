@@ -378,12 +378,12 @@ margin-bottom: 0;
 .recruit-hero .btn-primary {
   background: linear-gradient(
     135deg,
-    #6f5218 0%,
-    #987226 25%,
-    #c09a38 50%,
-    #987226 75%,
-    #6f5218 100%
-);
+    #7a4d22 0%,
+    #a56a2a 25%,
+    #c8873a 50%,
+    #e2b065 70%,
+    #a56a2a 100%
+  );
   
   color: #ffffff;
   padding: 16px 34px;
