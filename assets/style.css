@@ -322,6 +322,27 @@ margin-bottom: 0;
   }
 }
 
+.eyebrow-text {
+    display: inline-block;
+    animation: eyebrowFloat 3s ease-in-out infinite;
+}
+
+@keyframes eyebrowFloat {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
 .recruit-hero h1 {
   font-size: 68px;
   font-weight: 600;
@@ -377,13 +398,13 @@ margin-bottom: 0;
 
 .recruit-hero .btn-primary {
   background: linear-gradient(
-    135deg,
-    #7a4d22 0%,
-    #a56a2a 25%,
-    #c8873a 50%,
-    #e2b065 70%,
-    #a56a2a 100%
-  );
+135deg,
+#7a4d22 0%,
+#a56a2a 25%,
+#d39a4d 50%,
+#e9c27a 70%,
+#a56a2a 100%
+);
   
   color: #ffffff;
   padding: 16px 34px;
