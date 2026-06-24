@@ -616,10 +616,10 @@ text-align: center;
 
   padding: 10px 18px;
 
-  background: transparent !important;
-
   border: 2px solid #D4A73F;
   border-radius: 999px;
+
+  background: transparent;
 
   color: #D4A73F;
 
@@ -631,14 +631,15 @@ text-align: center;
   margin-bottom: 8px;
 }
 
-.why-recruit .section-eyebrow::before {
-  content: "";
-
+.eyebrow-dot {
   width: 6px;
   height: 6px;
 
-  border-radius: 50%;
   background: #D4A73F;
+  border-radius: 50%;
+
+  display: inline-block;
+  flex-shrink: 0;
 
   animation: pulseGold 2s infinite;
 }
@@ -651,7 +652,7 @@ text-align: center;
   }
 
   70% {
-    transform: scale(1.1);
+    transform: scale(1.15);
     box-shadow: 0 0 0 8px rgba(212, 167, 63, 0);
   }
 
@@ -661,7 +662,6 @@ text-align: center;
   }
 
 }
-
 
 .why-recruit h2 {
 font-size: 44px;
