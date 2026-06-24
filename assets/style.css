@@ -406,7 +406,7 @@ margin-bottom: 0;
 #a56a2a 100%
 );
   
-  color: #ffffff;
+  color: #0B1F3A;
   padding: 16px 34px;
   border-radius: 8px;
   text-decoration: none;
@@ -514,7 +514,7 @@ margin-bottom: 0;
 =================================== */
 
 .recruitment-snapshot {
-    padding: 100px 0;
+    padding: 800px 0;
     background: #f8f6f1;
 }
 
@@ -524,18 +524,50 @@ margin-bottom: 0;
     margin: 0 auto 70px;
 }
 
-.snapshot-header h2 {
-    font-size: 52px;
-    line-height: 1.15;
-    color: #0B1F3A;
-    margin-bottom: 24px;
+.recruitment-snapshot .section-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 24px;
+
+    border: 1px solid rgba(212,167,63,0.25);
+    border-radius: 999px;
+
+    background: rgba(212,167,63,0.05);
+
+    color: #D4A73F;
+
+    font-size: 14px;
     font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    margin-bottom: 45px;
 }
 
-.snapshot-header p {
-    font-size: 18px;
-    line-height: 1.8;
-    color: #5f6773;
+.capabilities-eyebrow .eyebrow-dot {
+    width: 8px;
+    height: 8px;
+
+    background: #D4A73F;
+    border-radius: 50%;
+
+    animation: capabilityDotPulse 2s ease infinite;
+}
+
+@keyframes capabilityDotPulse {
+
+    0%,100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: .7;
+        transform: scale(1.4);
+    }
+
 }
 
 /* ==========================
@@ -543,10 +575,11 @@ margin-bottom: 0;
 ========================== */
 
 .snapshot-features {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+      justify-content: center;
     gap: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+   flex-wrap: wrap;
 }
 
 .snapshot-card {
@@ -556,6 +589,8 @@ margin-bottom: 0;
     padding: 40px 30px;
     text-align: center;
     transition: all 0.3s ease;
+   width: 320px;
+    min-height: 210px;
 }
 
 .snapshot-card:hover {
@@ -595,9 +630,10 @@ margin-bottom: 0;
 ========================== */
 
 .snapshot-metrics {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    display: flex;
+     justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .metric-box {
@@ -606,6 +642,8 @@ margin-bottom: 0;
     padding: 35px 20px;
     text-align: center;
     border: 1px solid #edf1f5;
+  width: 260px;
+    min-height: 140px;
 }
 
 .metric-box h3 {
