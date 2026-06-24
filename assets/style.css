@@ -561,7 +561,7 @@ margin-bottom: 0;
    line-height: 1.2;
 }
 
-.highlight-number {
+.highlight-card .highlight-number {
     font-size: 34px !important;
     font-weight: 800;
     line-height: 1;
