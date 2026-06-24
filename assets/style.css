@@ -536,7 +536,7 @@ margin-bottom: 0;
 }
 
 .highlight-icon {
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 
 .highlight-icon i {
@@ -545,9 +545,9 @@ margin-bottom: 0;
 }
 
 .highlight-card h3 {
-    margin: 0 0 6px;
+    margin: 0 0 4px;
 
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 
     color: #222;
