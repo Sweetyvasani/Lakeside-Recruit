@@ -377,12 +377,13 @@ margin-bottom: 0;
 
 .recruit-hero .btn-primary {
   background: linear-gradient(
-      135deg,
-      #c8962d 0%,
-      #d4a73f 35%,
-      #e2bc5c 70%,
-      #c8962d 100%
-  );
+    135deg,
+    #6f5218 0%,
+    #987226 25%,
+    #c09a38 50%,
+    #987226 75%,
+    #6f5218 100%
+);
   
   color: #ffffff;
   padding: 16px 34px;
@@ -390,11 +391,30 @@ margin-bottom: 0;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.35s ease;
-   box-shadow:
-      0 8px 24px rgba(212,167,63,0.25),
-      0 0 18px rgba(212,167,63,0.12);
+  border: 1px solid rgba(255,255,255,0.12);
+  
+    box-shadow:
+      0 12px 24px rgba(165,106,42,0.30),
+      inset 0 1px 1px rgba(255,255,255,0.20);
+  
    position: relative;
   overflow: hidden;
+}
+
+.recruit-hero .btn-primary::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+
+  border-radius: 7px;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.15),
+      transparent 35%
+  );
+
+  pointer-events: none;
 }
 
 .recruit-hero .btn-primary:hover {
