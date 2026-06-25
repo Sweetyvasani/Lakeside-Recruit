@@ -1652,14 +1652,6 @@ border-color: #D4A73F;
     border-color: #f59e0b;
 }
 
-.footer::after {
-    content: "";
-    display: block;
-    width: 100%;
-    border-top: 1px solid rgba(255,255,255,0.08);
-    margin-top: 45px;
-}
-
 
 /* Bottom Footer */
 
@@ -1667,8 +1659,8 @@ border-color: #D4A73F;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  margin-top: 42px;
-    padding-top:26px;
+  margin-top: 48px;
+    padding-top:24px;
     border-top:1px solid rgba(255,255,255,.08);
 }
 
@@ -1702,6 +1694,7 @@ border-color: #D4A73F;
         flex-direction:column;
         gap:18px;
         text-align:center;
+      
     }
 
 }
