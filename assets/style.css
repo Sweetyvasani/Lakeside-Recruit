@@ -1557,8 +1557,14 @@ border-color: #D4A73F;
 
 .footer {
     background: #071321;
-    padding: 70px 0 30px;
+     padding: 45px 0 18px;
     color: #9fb3c8;
+}
+
+.footer .container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 32px;
 }
 
 .footer-content {
@@ -1645,14 +1651,6 @@ border-color: #D4A73F;
     margin-top: 45px;
 }
 
-/* Divider */
-
-.footer-divider {
-    width: 100%;
-    height: 1px;
-    background: rgba(255,255,255,0.10);
-    margin: 45px 0 24px;
-}
 
 /* Bottom Footer */
 
@@ -1660,8 +1658,8 @@ border-color: #D4A73F;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:24px 0 18px;
-    border-top:1px solid rgba(255,255,255,.10);
+    padding:22px 0 0;
+    border-top:1px solid rgba(255,255,255,.08);
 }
 
 .footer-bottom p {
