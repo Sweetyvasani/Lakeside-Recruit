@@ -1606,17 +1606,21 @@ border-color: #D4A73F;
 .footer-links ul {
     list-style: none;
     padding: 0;
-     margin-top: 12px;
+       margin: 0;
 }
 
 .footer-links li {
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .footer-links a {
     color: #9fb3c8;
+    display: block;
+   padding: 4px 0;
+  font-size: 15px;
     text-decoration: none;
     transition: 0.3s;
+  line-height: 1.25;
 }
 
 .footer-links a:hover {
@@ -1663,8 +1667,8 @@ border-color: #D4A73F;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  margin-top: 42px;
-    padding:28px 0 10px;
+  margin-top: 48px;
+    padding:28px;
     border-top:1px solid rgba(255,255,255,.08);
 }
 
