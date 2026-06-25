@@ -1117,21 +1117,6 @@ border-color: #D4A73F;
     background: rgba(212,167,63,0.35);
 }
 
-.process-summary {
-    margin-top: 40px;
-    text-align: center;
-
-    color: rgba(255,255,255,0.82);
-
-    font-size: 16px;
-    line-height: 1.7;
-}
-
-.process-summary span {
-    color: #D4A73F;
-    margin: 0 10px;
-    font-weight: 600;
-}
 
 /* Tablet */
 
@@ -1164,9 +1149,7 @@ border-color: #D4A73F;
         font-size: 16px;
     }
 
-    .process-summary {
-        font-size: 14px;
-    }
+
 
 }
 
