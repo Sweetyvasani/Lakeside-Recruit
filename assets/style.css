@@ -56,6 +56,16 @@ header img {
   width: auto;
 }
 
+.brand-bold {
+    color: #0b1f3a;      /* Your existing navy */
+    font-weight: 700;
+}
+
+.brand-accent {
+    color: #f59e0b;      /* Same orange as footer */ 
+    font-weight: 700;
+}
+
 @media (min-width: 1024px) {
   header img {
     height: 56px; /* desktop */
