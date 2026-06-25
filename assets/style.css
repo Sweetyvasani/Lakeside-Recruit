@@ -1569,14 +1569,14 @@ border-color: #D4A73F;
 
 .footer-content {
     display: grid;
-    grid-template-columns: 2.2fr 1fr 1fr;
-    gap: 50px;
+    grid-template-columns: 2.8fr 1fr 1fr;
+    gap: 60px;
     align-items: flex-start;
 }
 
 .footer h3 {
     color: #ffffff;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 18px;
     font-weight: 700;
 }
@@ -1600,7 +1600,7 @@ border-color: #D4A73F;
 
 .footer-brand p {
     line-height: 1.7;
-    max-width: 470px;
+    max-width: 520px;
 }
 
 .footer-links ul {
@@ -1667,8 +1667,8 @@ border-color: #D4A73F;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  margin-top: 48px;
-    padding:28px;
+  margin-top: 42px;
+    padding-top:26px;
     border-top:1px solid rgba(255,255,255,.08);
 }
 
