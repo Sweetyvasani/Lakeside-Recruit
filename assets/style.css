@@ -1676,6 +1676,14 @@ border-color: #D4A73F;
     color: #ffffff;
 }
 
+.footer-contact span {
+    display: block;
+    padding: 4px 0;
+    font-size: 15px;
+    line-height: 1.25;
+    color: #9fb3c8;
+}
+
 
 /* Bottom Footer */
 
