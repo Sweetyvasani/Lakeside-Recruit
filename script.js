@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
- <script>
 document.addEventListener('DOMContentLoaded', function() {
   const toggle = document.querySelector('.menu-toggle');
   const mobileNav = document.querySelector('.mobile-nav');
@@ -56,4 +55,4 @@ document.addEventListener('DOMContentLoaded', function() {
     toggle.setAttribute('aria-expanded', 'false');
   });
 });
-</script>
+
