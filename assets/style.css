@@ -1435,9 +1435,9 @@ border-color: #D4A73F;
 
     display:grid;
 
-    grid-template-columns:1.6fr .8fr;
+    grid-template-columns:58% 42%;
 
-    gap:60px;
+    gap:70px;
 
     box-shadow:
 
@@ -1489,6 +1489,7 @@ border-color: #D4A73F;
     line-height:1.9;
 
     margin-bottom:28px;
+  text-align: justify;
 
 }
 
