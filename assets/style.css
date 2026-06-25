@@ -1502,8 +1502,8 @@ border-color: #D4A73F;
 
 .founder-card img{
 
-    width:85%;
-  max-width:300px;
+    width:90%;
+  max-width:350px;
 
     border-radius:16px;
    height: auto;
@@ -1521,7 +1521,7 @@ border-color: #D4A73F;
 
     color:#0B1F3A;
 
-    font-size:22px;
+    font-size:20px;
 
 }
 
@@ -1534,7 +1534,7 @@ border-color: #D4A73F;
   
     color:#566A8F;
 
-    font-weight:600;
+    font-weight:500;
 
 }
 
