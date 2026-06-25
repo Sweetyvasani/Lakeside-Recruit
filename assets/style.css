@@ -1496,17 +1496,18 @@ border-color: #D4A73F;
 .founder-card{
 
     text-align:center;
+  width:35%;
 
 }
 
 .founder-card img{
 
-    width:100%;
+    width:82%;
+  max-width:290px;
 
     border-radius:16px;
-   height: 400px;      /* adjust as needed */
-    object-fit: cover;
-
+   height: auto;
+    
     box-shadow:
 
     0 12px 28px rgba(0,0,0,.18);
