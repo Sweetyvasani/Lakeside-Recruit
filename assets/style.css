@@ -1569,8 +1569,8 @@ border-color: #D4A73F;
 
 .footer-content {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 80px;
+    grid-template-columns: 2.2fr 1fr 1fr;
+    gap: 50px;
     align-items: flex-start;
 }
 
@@ -1605,7 +1605,7 @@ border-color: #D4A73F;
 }
 
 .footer-links li {
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
 
 .footer-links a {
