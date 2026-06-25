@@ -616,14 +616,14 @@ text-align: center;
 
   padding: 10px 18px;
 
-  border: 2px solid #D4A73F;
+  border: 1px solid rgba(212,167,63,0.40);
   border-radius: 999px;
 
-  background: transparent;
+   background: rgba(212,167,63,0.08);
 
   color: #D4A73F;
 
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
