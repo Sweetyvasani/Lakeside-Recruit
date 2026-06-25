@@ -1503,7 +1503,9 @@ border-color: #D4A73F;
 
     width:100%;
 
-    border-radius:18px;
+    border-radius:16px;
+   height: 400px;      /* adjust as needed */
+    object-fit: cover;
 
     box-shadow:
 
@@ -1513,7 +1515,8 @@ border-color: #D4A73F;
 
 .founder-card h3{
 
-    margin-top:24px;
+    margin-top:10px;
+  margin-bottom:2px;
 
     color:#0B1F3A;
 
@@ -1525,8 +1528,9 @@ border-color: #D4A73F;
 
     display:block;
 
-    margin-top:2px;
-
+    margin-top:0;
+ margin-bottom:18px;
+  
     color:#566A8F;
 
     font-weight:600;
