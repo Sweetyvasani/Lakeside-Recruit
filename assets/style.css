@@ -493,15 +493,72 @@ margin-bottom: 0;
 
 /* Responsive */
 @media (max-width: 768px) {
-  .recruit-hero {
-    padding: 100px 20px 80px;
-  }
 
-  .recruit-hero .hero-bg-word {
-    font-size: 60px;
-    right: 20px;
-  }
-  }
+    .recruit-hero{
+        min-height: auto;
+        padding: 90px 24px 70px;
+    }
+
+    .recruit-hero .hero-content{
+        max-width:100%;
+    }
+
+    .recruit-hero .hero-eyebrow{
+
+        padding:12px 18px;
+        font-size:15px;
+        line-height:1.4;
+
+        max-width:340px;
+        width:100%;
+        justify-content:center;
+
+        margin-bottom:24px;
+    }
+
+    .recruit-hero h1{
+
+        font-size:56px;
+        line-height:1.08;
+
+        margin-bottom:22px;
+
+        letter-spacing:-0.5px;
+    }
+
+    .recruit-hero .hero-subtext{
+
+        font-size:17px;
+        line-height:1.7;
+
+        max-width:100%;
+
+        margin-bottom:0;
+    }
+
+    .hero-tagline{
+
+        font-size:20px;
+        line-height:1.4;
+
+        margin:16px 0;
+    }
+
+    .recruit-hero .hero-buttons{
+
+        flex-direction:column;
+        width:100%;
+
+        margin-top:30px;
+    }
+
+    .recruit-hero .btn-primary{
+
+        width:100%;
+        text-align:center;
+    }
+
+}
 
 /* =================================
    RECRUITMENT HIGHLIGHTS
