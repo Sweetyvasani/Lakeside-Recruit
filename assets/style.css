@@ -756,6 +756,7 @@ grid-template-columns: 1fr;
 .industries-section .container {
     max-width: 1300px;
     margin: 0 auto;
+  text-align: center;
 }
 
 .industries-section .section-eyebrow {
@@ -910,22 +911,30 @@ padding-bottom: 28px;
 .solutions-section .container {
     max-width: 1200px;
     margin: 0 auto;
+  text-align: center;
 }
 
 .solutions-section .section-eyebrow {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
+
   padding: 10px 18px;
-  border: 1px solid rgba(212,167,63,0.35);
+
+  border: 1px solid rgba(212,167,63,0.40);
   border-radius: 999px;
-  background: rgba(212,167,63,0.08);
-  color: #d4a73f;
-    font-size: 18px;
+
+   background: rgba(212,167,63,0.08);
+
+  color: #D4A73F;
+
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+  text-transform: uppercase;
+
+  margin-bottom: 8px;
   }
 
 .solutions-section h2 {
@@ -1028,22 +1037,30 @@ border-color: #D4A73F;
 .process-section .container {
     max-width: 1300px;
     margin: 0 auto;
+  text-align: center;
 }
 
 .process-section .section-eyebrow {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
+
   padding: 10px 18px;
-  border: 1px solid rgba(212,167,63,0.35);
+
+  border: 1px solid rgba(212,167,63,0.40);
   border-radius: 999px;
-  background: rgba(212,167,63,0.08);
-  color: #d4a73f;
-    font-size: 18px;
+
+   background: rgba(212,167,63,0.08);
+
+  color: #D4A73F;
+
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+  text-transform: uppercase;
+
+  margin-bottom: 8px;
   }
 
 .process-section h2 {
@@ -1165,19 +1182,26 @@ border-color: #D4A73F;
 }
 
 .contact-section .section-tag {
-  display: inline-flex;
+ display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
+
   padding: 10px 18px;
-  border: 1px solid rgba(212,167,63,0.35);
+
+  border: 1px solid rgba(212,167,63,0.40);
   border-radius: 999px;
-  background: rgba(212,167,63,0.08);
-  color: #d4a73f;
-    font-size: 18px;
+
+   background: rgba(212,167,63,0.08);
+
+  color: #D4A73F;
+
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+  text-transform: uppercase;
+
+  margin-bottom: 8px;
   }
 
 .contact-section h2 {
