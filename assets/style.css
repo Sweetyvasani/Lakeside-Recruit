@@ -830,8 +830,12 @@ padding: 80px 20px;
 }
 
 .why-recruit h2 {
-font-size: 34px;
+font-size: 33px;
 }
+
+ .why-recruit .pillar-card p {
+   text-align: center
+ }
 
 .recruit-pillars {
 grid-template-columns: 1fr;
