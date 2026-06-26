@@ -544,7 +544,7 @@ margin-bottom: 0;
 
     .recruit-hero h1{
 
-        font-size:36px;
+        font-size:34px;
         line-height:1.08;
 
         margin-bottom:22px;
@@ -830,7 +830,7 @@ padding: 80px 20px;
 }
 
 .why-recruit h2 {
-font-size: 33px;
+font-size: 32px;
 }
 
  .why-recruit .pillar-card p {
@@ -989,7 +989,7 @@ padding-bottom: 28px;
     }
 
     .industries-section h2 {
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .industry-grid {
@@ -1116,7 +1116,7 @@ border-color: #D4A73F;
     }
 
     .solutions-section h2 {
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .solutions-grid {
@@ -1238,7 +1238,7 @@ border-color: #D4A73F;
 @media (max-width: 768px) {
 
     .process-section h2 {
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .timeline-step {
@@ -1447,7 +1447,7 @@ border-color: #D4A73F;
 @media (max-width: 768px) {
 
     .contact-section h2 {
-        font-size: 42px;
+        font-size: 32px;
     }
 
     .form-grid {
@@ -1835,8 +1835,22 @@ border-color: #D4A73F;
 
     .footer-content {
         grid-template-columns: 1fr;
-        gap: 45px;
+        gap: 36px;
     }
 
 }
 
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+        gap: 32px;
+}
+  .footer-social a {
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+}
+  .footer-links a {
+    padding: 2px 0;
+}
+}
