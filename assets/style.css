@@ -387,12 +387,30 @@ margin-bottom: 0;
   letter-spacing: -1px;
   max-width: 1100px;
   text-align: center;
+  color: #F8F9FB;
 }
 
 .hero-accent {
     color: #D4A73F;      /* Same orange as footer */ 
   white-space: nowrap;
-    }
+  background: linear-gradient(
+        135deg,
+        #8F5B1E 0%,
+        #B67A2A 18%,
+        #D4A73F 38%,
+        #F2D48A 50%,
+        #D4A73F 62%,
+        #B67A2A 82%,
+        #8F5B1E 100%
+    );
+  
+-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 800;
+}
+
 
 
 .recruit-hero h1 .hero-line {
@@ -404,7 +422,7 @@ margin-bottom: 0;
   line-height: 1.8;
   opacity: 0.9;
   margin-bottom: 0px;
-  max-width: 1000px;
+  max-width: 850px;
     text-align: center;
   color: rgba(255,255,255,0.82);
 }
@@ -449,7 +467,7 @@ margin-bottom: 0;
 );
   
   color: #0B1F3A;
-  padding: 16px 34px;
+  padding: 18px 42px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
