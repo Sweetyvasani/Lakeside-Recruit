@@ -389,10 +389,6 @@ margin-bottom: 0;
   text-align: center;
 }
 
-.hero-bold {
-    color: #0b1f3a;      /* Your existing navy */
-   }
-
 .hero-accent {
     color: #f59e0b;      /* Same orange as footer */ 
     }
