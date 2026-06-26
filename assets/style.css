@@ -389,6 +389,15 @@ margin-bottom: 0;
   text-align: center;
 }
 
+.brand-bold {
+    color: #0b1f3a;      /* Your existing navy */
+   }
+
+.brand-accent {
+    color: #f59e0b;      /* Same orange as footer */ 
+    }
+
+
 .recruit-hero h1 span {
   display: block;
 }
