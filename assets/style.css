@@ -192,19 +192,35 @@ body {
 
 
   /* Fix brand overflow on mobile */
+
+  header {
+    justify-content: space-between;
+}
+  
 header .brand {
   flex-shrink: 1;   /* allow brand to shrink */
   min-width: 0;     /* prevent overflow in flex */
+  width: calc(100% - 60px);
 }
 
+header img {
+    height: 42px;
+}
+  
 header .brand-name {
-  font-size: 15px;   /* smaller so full name fits */
+  font-size: 13px;   /* smaller so full name fits */
   margin-left: 6px;
   white-space: nowrap;
 }
 
 .menu-toggle {
   flex-shrink: 0;   /* keep menu icon visible */
+    display: block;
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    margin-left: 10px;
+}
 }
 }
 
