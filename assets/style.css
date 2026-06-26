@@ -396,7 +396,8 @@ margin-bottom: 0;
 
 
 .recruit-hero h1 span {
-  display: block;
+  display: inline-block;
+  width:100%
 }
 
 .recruit-hero .hero-subtext {
