@@ -395,10 +395,9 @@ margin-bottom: 0;
     }
 
 
-.recruit-hero h1 span {
-  display: inline-block;
-  width:100%
-}
+.recruit-hero h1 .hero-line {
+  display: block;
+  }
 
 .recruit-hero .hero-subtext {
   font-size: 20px;
