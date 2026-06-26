@@ -200,7 +200,7 @@ body {
 header .brand {
   flex-shrink: 1;   /* allow brand to shrink */
   min-width: 0;     /* prevent overflow in flex */
-  width: calc(100% - 60px);
+  width: auto;
 }
 
 
@@ -211,14 +211,25 @@ header .brand-name {
   white-space: nowrap;
 }
 
-.menu-toggle {
-  flex-shrink: 0;   /* keep menu icon visible */
-    display: block;
-    width: 44px;
-    height: 44px;
-    flex: 0 0 44px;
-    margin-left: 10px;
-  font-size: 28px;
+.menu-toggle{
+    display:block;
+    position:absolute;
+    right:16px;
+    top:50%;
+    transform:translateY(-50%);
+
+    width:42px;
+    height:42px;
+
+    border:none;
+    background:none;
+
+    font-size:28px;
+    color:#0B1F3A;
+
+    cursor:pointer;
+
+    z-index:2000;
 }
 }
 
