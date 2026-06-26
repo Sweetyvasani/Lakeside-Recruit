@@ -8,7 +8,7 @@ body {
 
 /* Force hide hamburger on desktop */
 .menu-toggle {
-  display: none !important;
+  display: none;
 }
 
 /* Headings & Brand Font */
@@ -221,7 +221,7 @@ header .brand-name {
   font-size: 28px;
 }
 }
-}
+
 
 /* ===============================
    Hero Section - Lakeside Recruit
