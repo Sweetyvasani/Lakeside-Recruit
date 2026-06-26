@@ -1725,10 +1725,10 @@ border-color: #D4A73F;
 
 .story-content h2{
 
-    font-size:34px;
-
-    margin-bottom:22px;
-
+    font-size:28px;
+line-height:1.35;
+    margin-bottom:20px;
+  font-weight:700;
 }
 
 .story-content blockquote{
