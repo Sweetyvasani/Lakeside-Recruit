@@ -389,11 +389,11 @@ margin-bottom: 0;
   text-align: center;
 }
 
-.brand-bold {
+.hero-bold {
     color: #0b1f3a;      /* Your existing navy */
    }
 
-.brand-accent {
+.hero-accent {
     color: #f59e0b;      /* Same orange as footer */ 
     }
 
