@@ -1841,17 +1841,16 @@ max-width:100%;
 }
 
 .promise-dot{
-    width:10px;
-    height:10px;
-    border-radius:50%;
-    background:#D4A73F;
-    margin-top:9px;
-    flex-shrink:0;
+    width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #D4A73F;
+  margin-right: 10px;
 
-    box-shadow:
-        0 0 0 rgba(212,167,63,.45);
-
-   }
+  box-shadow:
+    0 0 8px #D4A73F,
+    0 0 16px #D4A73F;
+  }
 
 
 .promise-card p{
