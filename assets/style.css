@@ -1897,6 +1897,149 @@ max-width:100%;
     -webkit-text-fill-color:transparent;
 }
 
+/* ==========================================
+   OUR PROMISE - TABLET
+========================================== */
+
+@media (max-width: 992px){
+
+    .about-promise{
+        padding:70px 24px;
+    }
+
+    .promise-card{
+        max-width:100%;
+    }
+
+    .promise-item{
+        max-width:100%;
+        margin-bottom:16px;
+    }
+
+    .promise-item p{
+        font-size:0.95rem;
+        line-height:1.8;
+    }
+
+    .promise-card blockquote{
+        max-width:100%;
+        padding:18px 22px;
+        font-size:1.15rem;
+        line-height:1.7;
+    }
+
+    .promise-card h3{
+        font-size:2.4rem;
+        line-height:1.35;
+    }
+
+    .promise-divider{
+        width:120px;
+    }
+
+}
+
+
+/* ==========================================
+   OUR PROMISE - MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .about-promise{
+        padding:60px 20px;
+    }
+
+    .about-promise .section-eyebrow{
+        font-size:13px;
+        padding:8px 16px;
+        letter-spacing:.8px;
+    }
+
+    .promise-header{
+        margin-bottom:24px;
+    }
+
+    .promise-item{
+        margin-bottom:18px;
+    }
+
+    .promise-item p{
+        font-size:0.95rem;
+        line-height:1.75;
+    }
+
+    .promise-card blockquote{
+
+        margin:24px 0;
+
+        padding:16px 18px;
+
+        font-size:1.05rem;
+
+        line-height:1.6;
+
+        text-align:center;
+    }
+
+    .promise-divider{
+        width:90px;
+        margin:24px auto;
+    }
+
+    .promise-card h3{
+
+        font-size:34px;
+
+        line-height:1.35;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL PHONES
+========================================== */
+
+@media (max-width:480px){
+
+    .about-promise{
+        padding:50px 16px;
+    }
+
+    .promise-item p{
+
+        font-size:0.9rem;
+
+        line-height:1.7;
+
+    }
+
+    .promise-card blockquote{
+
+        padding:16px;
+
+        font-size:1rem;
+
+    }
+
+    .promise-card h3{
+
+        font-size:1.65rem;
+
+        line-height:1.3;
+
+    }
+
+    .promise-card h3 span{
+
+        display:inline;
+
+    }
+
+}
+
 
 
 /* ===========================
