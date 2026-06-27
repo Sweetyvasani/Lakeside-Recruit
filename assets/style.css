@@ -1786,12 +1786,8 @@ max-width:100%;
 ========================== */
 
 .about-promise{
-    padding:75px 20px;
-    background:linear-gradient(
-        180deg,
-        #faf9f6 0%,
-        #f4f1ea 100%
-    );
+    padding:95px 20px 75px;
+        background:#f8f1e3;
 }
 
 
