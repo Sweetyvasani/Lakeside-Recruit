@@ -1787,7 +1787,11 @@ max-width:100%;
 
 .about-promise{
     padding:75px 20px;
-    background:#F5F3EE;
+    background:linear-gradient(
+        180deg,
+        #faf9f6 0%,
+        #f4f1ea 100%
+    );
 }
 
 .promise-card{
@@ -1799,6 +1803,12 @@ max-width:100%;
     text-align:center;
     box-shadow:none;
   align-items: center;
+}
+
+.promise-header{
+    display:flex;
+    justify-content:center;
+    margin-bottom:45px;
 }
 
 .about-promise .section-eyebrow {
@@ -1835,26 +1845,33 @@ max-width:100%;
 
 .promise-card blockquote{
     margin:24px 0 28px;
-    max-width:760px;
+    max-width:850px;
     padding:18px 28px;
     border-left:3px solid #D4A73F;
     font-size:1.28rem;
-    font-style:italic;
+    font-style:normal;
     font-weight:600;
     color:#0B1F3A;
     text-align:center;
-    bbackground:#F5F3EE;
+    background:#fffaf1;
 }
 
 .promise-divider{
-    width:90px;
+    width:140px;
     height:2px;
-    background:#E0A100;
+    background:linear-gradient(
+    90deg,
+    #B8862E,
+    #D4A646,
+    #F1D27A,
+    #D4A646,
+    #B8862E
+);
     margin:28px auto;
 }
 
 .promise-card h3{
-    font-size:2.3rem;
+    font-size:3rem;
     color:#0B1F3A;
     line-height:1.4;
     font-weight:700;
