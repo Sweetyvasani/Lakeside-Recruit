@@ -1833,16 +1833,17 @@ max-width:100%;
 }
 
 
-.promise-item{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    gap:12px;
-    margin:0 auto 18px;
+.promise-item .eyebrow-dot{
+    flex-shrink:0;
+    margin-top:0;
 }
 
 .promise-item p{
     margin:0;
+  font-size:1rem;
+    line-height:1.8;
+    color:#687385;
+    text-align:left;
 }
 
 .promise-card p{
