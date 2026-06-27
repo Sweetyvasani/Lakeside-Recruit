@@ -1840,18 +1840,36 @@ max-width:100%;
     margin-bottom:18px;
 }
 
-.promise-dot{
-    width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #D4A73F;
-  margin-right: 10px;
+.promise-item{
+    position:relative;
+    max-width:760px;
+    margin:0 auto 18px;
+    padding-left:26px;
+}
 
-  box-shadow:
-    0 0 8px #D4A73F,
-    0 0 16px #D4A73F;
-  }
+.promise-item::before{
+    content:"";
+    position:absolute;
 
+    left:0;
+    top:12px;
+
+    width:9px;
+    height:9px;
+
+    border-radius:50%;
+    background:#D4A73F;
+
+    box-shadow:0 0 8px rgba(212,167,63,.45);
+}
+
+.promise-item p{
+    margin:0;
+    font-size:1rem;
+    line-height:1.8;
+    text-align:center;
+    color:#687385;
+}
 
 .promise-card p{
     font-size:1rem;
