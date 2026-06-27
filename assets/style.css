@@ -1832,43 +1832,17 @@ max-width:100%;
   margin-bottom: 8px;
 }
 
+
 .promise-item{
-    display:flex;
+    display:inline-flex;
+    align-items:center;
     justify-content:center;
-    align-items:flex-start;
-    gap:14px;
-    margin-bottom:18px;
-}
-
-.promise-item{
-    position:relative;
-    max-width:760px;
+    gap:12px;
     margin:0 auto 18px;
-    padding-left:26px;
-}
-
-.promise-item::before{
-    content:"";
-    position:absolute;
-
-    left:0;
-    top:12px;
-
-    width:9px;
-    height:9px;
-
-    border-radius:50%;
-    background:#D4A73F;
-
-    box-shadow:0 0 8px rgba(212,167,63,.45);
 }
 
 .promise-item p{
     margin:0;
-    font-size:1rem;
-    line-height:1.8;
-    text-align:center;
-    color:#687385;
 }
 
 .promise-card p{
