@@ -1794,21 +1794,30 @@ max-width:100%;
     );
 }
 
+.promise-top-divider{
+    width:90px;
+    height:2px;
+    margin:0 auto 45px;
+    background:linear-gradient(
+        90deg,
+        transparent,
+        #D4A73F,
+        transparent
+    );
+}
+
 .promise-card{
     max-width:900px;
-    margin:auto;
+    margin:0 auto;
     background:transparent;
-    border-radius:24px;
-    padding:0;
+        padding:0;
     text-align:center;
-    box-shadow:none;
-  align-items: center;
-}
+      }
 
 .promise-header{
     display:flex;
     justify-content:center;
-    margin-bottom:45px;
+    margin-bottom:28px;
 }
 
 .about-promise .section-eyebrow {
