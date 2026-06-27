@@ -1796,8 +1796,9 @@ max-width:100%;
     background:transparent;
     border-radius:24px;
     padding:0;
-    text-align:left;
+    text-align:center;
     box-shadow:none;
+  align-items: center;
 }
 
 .about-promise .section-eyebrow {
@@ -1841,7 +1842,7 @@ max-width:100%;
     font-style:italic;
     font-weight:600;
     color:#0B1F3A;
-    text-align:left;
+    text-align:center;
     bbackground:#F5F3EE;
 }
 
