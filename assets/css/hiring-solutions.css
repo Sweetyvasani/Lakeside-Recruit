@@ -497,9 +497,9 @@
 
 .stake-grid{
     display: grid;
-    grid-template-columns:repeat(2, 410px);
+    grid-template-columns:repeat(2, 500px);
     justify-content: center;
-    gap: 24px;
+    gap: 22px;
     margin-top: 20px;
 }
 
@@ -515,7 +515,7 @@
 
     border-radius:18px;
 
-    padding:28px;
+    padding:24px 28px;
 
     transition:.35s ease;
 
@@ -557,7 +557,7 @@
 
     border:2px solid #4D73FF;
 
-    margin-bottom:20px;
+    margin-bottom:14px;
 
    background:transparent;
 
@@ -569,7 +569,7 @@
 
     color:#16345A;
 
-    margin-bottom:18px;
+    margin-bottom:12px;
 
     font-weight:700;
 
@@ -581,7 +581,7 @@
 
     color:#6B7280;
 
-    line-height:1.8;
+    line-height:1.7;
 
 }
 
