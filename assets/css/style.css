@@ -1095,6 +1095,8 @@ padding-bottom: 28px;
     display: flex;
         align-items: flex-start;
     justify-content: center;
+  text-decoration: none;
+    color: inherit;
 }
 
 .solution-card i {
@@ -1119,6 +1121,36 @@ border-color: #D4A73F;
 
         box-shadow:
         0 15px 35px rgba(0,0,0,0.08);
+}
+
+.solution-card:hover,
+.solution-card:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+.solution-link{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+
+    margin-top:22px;
+
+    font-size:0.92rem;
+    font-weight:600;
+
+    color:var(--accent-color);
+
+    transition:0.3s ease;
+}
+
+.solution-link i{
+    transition:transform .3s ease;
+}
+
+.solution-card:hover .solution-link i{
+    transform:translateX(6px);
 }
 
 /* Tablet */
