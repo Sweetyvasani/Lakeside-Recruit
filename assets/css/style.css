@@ -2072,9 +2072,11 @@ linear-gradient(
     width:100%;
     max-width:100%;
 
-    padding:22px;
+    padding:20px;
 
     border-radius:22px;
+
+  box-sizing:border-box;
 
     overflow:hidden;
 
@@ -2095,17 +2097,19 @@ linear-gradient(
 
 .promise-box{
 
-    max-width:none;
+    max-width:100%;
 
     width:100%;
 
     min-height:auto;
 
-    padding:26px;
+    padding:24px;
 
     border-radius:18px;
 
     text-align:center;
+
+      box-sizing:border-box;
 
 }
 
@@ -2136,13 +2140,14 @@ linear-gradient(
 
     width:100%;
 
-    max-width:none;
+    max-width:100%;
 
     margin:0;
 
-    padding:32px 22px 24px;
+    padding:28px 20px 22px;
 
     border-radius:18px;
+  box-sizing:border-box;
 
 }
 
@@ -2162,6 +2167,12 @@ linear-gradient(
 
     line-height:1.75;
 
+}
+
+  .promise-panel,
+.promise-box,
+.promise-quote{
+    box-sizing:border-box;
 }
 
 .promise-ending{
