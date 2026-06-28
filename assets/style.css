@@ -1789,6 +1789,16 @@ max-width:100%;
     padding:90px 20px;
 
     background:#bf881b;
+  background: linear-gradient(
+        135deg,
+        #8F5B1E 0%,
+        #B67A2A 18%,
+        #D4A73F 38%,
+        #F2D48A 50%,
+        #D4A73F 62%,
+        #B67A2A 82%,
+        #8F5B1E 100%
+    );
 
 }
 
