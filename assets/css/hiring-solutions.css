@@ -496,13 +496,11 @@
 ========================== */
 
 .stake-grid{
-
-    display:grid;
-
-    grid-template-columns:repeat(2,1fr);
-
-    gap:30px;
-
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 480px));
+    justify-content: center;
+    gap: 28px;
+    margin-top: 20px;
 }
 
 /* ==========================
@@ -517,7 +515,7 @@
 
     border-radius:18px;
 
-    padding:38px;
+    padding:34px;
 
     transition:.35s ease;
 
@@ -529,11 +527,23 @@
 
 .stake-card:hover{
 
-    transform:translateY(-8px);
+    transform:translateY(-6px);
 
     border-color:#D4A137;
 
-    box-shadow:0 20px 45px rgba(0,0,0,.08);
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+}
+
+.stake-card:hover h3{
+
+    color:#D4A137;
+
+}
+
+.stake-card:hover .stake-icon{
+
+    transform:rotate(45deg);
 
 }
 
@@ -548,6 +558,8 @@
     border:2px solid #D4A137;
 
     margin-bottom:28px;
+
+   color: #1F3D63;
 
 }
 
