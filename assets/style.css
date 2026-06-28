@@ -1860,9 +1860,9 @@ linear-gradient(
 .promise-box{
 
     width:100%;
-    max-width:380px;
+    max-width:360px;
 
-  min-height:200px;
+  min-height:190px;
 
   display:flex;
     flex-direction:column;
