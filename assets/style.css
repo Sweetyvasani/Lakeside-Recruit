@@ -1788,17 +1788,31 @@ max-width:100%;
 
     padding:90px 20px;
 
-    background:#bf881b;
-  background: linear-gradient(
-        135deg,
-        #8F5B1E 0%,
-        #B67A2A 18%,
-        #D4A73F 38%,
-        #F2D48A 50%,
-        #D4A73F 62%,
-        #B67A2A 82%,
-        #8F5B1E 100%
-    );
+        background:#F8FAFC;
+  }
+
+.promise-panel{
+
+    max-width:980px;
+
+    margin:0 auto;
+
+    padding:48px;
+
+    border-radius:28px;
+
+    background:
+linear-gradient(
+135deg,
+#B97B2A 0%,
+#D4A646 28%,
+#F6DB8A 50%,
+#D4A646 72%,
+#B97B2A 100%
+);
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.12);
 
 }
 
@@ -1912,8 +1926,8 @@ max-width:100%;
 
 .promise-quote{
 
-    max-width:780px;
-    margin:30px auto 35px;
+    max-width:760px;
+    margin:28px auto 0;
 
     background:#FFFFFF;
 
@@ -1949,6 +1963,8 @@ max-width:100%;
 }
 
 .promise-ending{
+
+  margin-top:32px;
 
     text-align:center;
 
@@ -1990,6 +2006,12 @@ max-width:100%;
         font-size:.95rem;
 
     }
+
+  .promise-panel{
+
+    padding:26px;
+
+}
 
    .promise-quote{
 
