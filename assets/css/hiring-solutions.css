@@ -222,6 +222,83 @@
     box-shadow:0 18px 45px rgba(0,0,0,.25);
 }
 
+.recruit-hero .btn-primary {
+  background: linear-gradient(
+135deg,
+#7a4d22 0%,
+#a56a2a 25%,
+#d39a4d 50%,
+#e9c27a 70%,
+#a56a2a 100%
+);
+  
+  color: #0B1F3A;
+  padding: 18px 42px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.35s ease;
+  border: 1px solid rgba(255,255,255,0.12);
+  
+    box-shadow:
+      0 12px 24px rgba(165,106,42,0.30),
+      inset 0 1px 1px rgba(255,255,255,0.20);
+  
+   position: relative;
+  overflow: hidden;
+}
+
+.recruit-hero .btn-primary::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+
+  border-radius: 7px;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.15),
+      transparent 35%
+  );
+
+  pointer-events: none;
+}
+
+.recruit-hero .btn-primary:hover {
+  box-shadow:
+      0 14px 30px rgba(212,167,63,0.35),
+      0 0 24px rgba(212,167,63,0.18);
+  transform: translateY(-3px);
+}
+
+.recruit-hero .btn-primary::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: -100%;
+
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(255,255,255,0.25),
+      transparent
+  );
+
+  transition: all 0.8s ease;
+}
+
+.recruit-hero .btn-primary:hover::before {
+  left: 100%;
+}
+
+
+
+
 /*==========================================================
  RESPONSIVE
 ==========================================================*/
