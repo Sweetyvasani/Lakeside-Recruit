@@ -32,13 +32,14 @@
 
 .hs-hero-wrapper{
     display: grid;
-    grid-template-columns: 72% 28%;
-    gap: 60px;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 40px;
     align-items: start;
 }
 
 .hs-content{
     max-width: 760px;
+   padding-left: 40px;
 }
 
 .hs-tag{
@@ -76,10 +77,11 @@
     color: #ffffff;
     margin: 0;
     letter-spacing: -.02em;
+      max-width: 620px;
 }
 
 .hs-description{
-    max-width: 640px;
+    max-width: 580px;
     font-size: 1.15rem;
     line-height: 1.9;
     color: rgba(255,255,255,.82);
@@ -127,17 +129,90 @@
 
 .hs-image{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
-    padding-top: 40px;
+    padding-top: 110px;
 }
 
 .hs-image img{
-    width: 100%;
-    max-width: 340px;
-    height: 440px;
+    width: 320px;
+    height: 400px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
     box-shadow: 0 20px 45px rgba(0,0,0,.22);
+}
+
+.hs-hero .btn-primary {
+  background: linear-gradient(
+135deg,
+#7a4d22 0%,
+#a56a2a 25%,
+#d39a4d 50%,
+#e9c27a 70%,
+#a56a2a 100%
+);
+  
+  color: #0B1F3A;
+  padding: 18px 42px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.35s ease;
+  border: 1px solid rgba(255,255,255,0.12);
+  
+    box-shadow:
+      0 12px 24px rgba(165,106,42,0.30),
+      inset 0 1px 1px rgba(255,255,255,0.20);
+  
+   position: relative;
+  overflow: hidden;
+}
+
+.hs-hero .btn-primary::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+
+  border-radius: 7px;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.15),
+      transparent 35%
+  );
+
+  pointer-events: none;
+}
+
+.hs-hero .btn-primary:hover {
+  box-shadow:
+      0 14px 30px rgba(212,167,63,0.35),
+      0 0 24px rgba(212,167,63,0.18);
+  transform: translateY(-3px);
+}
+
+.hs-hero .btn-primary::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: -100%;
+
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(255,255,255,0.25),
+      transparent
+  );
+
+  transition: all 0.8s ease;
+}
+
+.hs-hero .btn-primary:hover::before {
+  left: 100%;
 }
