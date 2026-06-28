@@ -1,1 +1,143 @@
+/* ==========================================================
+   HIRING SOLUTIONS - HERO SECTION
+   Shared across all Hiring Solution pages
+========================================================== */
 
+.hs-hero{
+    background: linear-gradient(135deg, #0F223D 0%, #18345A 100%);
+    padding: 70px 0 90px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hs-back-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #D4A44A;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 40px;
+    transition: all .3s ease;
+}
+
+.hs-back-link:hover{
+    color: #ffffff;
+}
+
+.hs-back-link i{
+    font-size: .85rem;
+}
+
+.hs-hero-wrapper{
+    display: grid;
+    grid-template-columns: 72% 28%;
+    gap: 60px;
+    align-items: start;
+}
+
+.hs-content{
+    max-width: 760px;
+}
+
+.hs-tag{
+    display: inline-block;
+    padding: 10px 22px;
+    border: 1px solid rgba(212,164,74,.45);
+    border-radius: 50px;
+    color: #F0C36D;
+    font-size: .82rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.hs-title-wrapper{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.hs-accent{
+    width: 4px;
+    min-height: 170px;
+    background: #D4A44A;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.hs-title{
+    font-size: 4rem;
+    line-height: 1.08;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: -.02em;
+}
+
+.hs-description{
+    max-width: 640px;
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: rgba(255,255,255,.82);
+    margin: 0 0 42px;
+}
+
+.hs-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+    padding: 18px 38px;
+}
+
+.hs-highlights{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.hs-pill{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border: 1px solid rgba(212,164,74,.30);
+    border-radius: 50px;
+    background: rgba(255,255,255,.05);
+    backdrop-filter: blur(8px);
+    color: #ffffff;
+    font-size: .92rem;
+    transition: all .3s ease;
+}
+
+.hs-pill i{
+    color: #D4A44A;
+    font-size: .95rem;
+}
+
+.hs-pill:hover{
+    transform: translateY(-2px);
+    border-color: rgba(212,164,74,.60);
+    background: rgba(255,255,255,.08);
+}
+
+.hs-image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.hs-image img{
+    width: 100%;
+    max-width: 340px;
+    height: 440px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 45px rgba(0,0,0,.22);
+}
