@@ -1129,27 +1129,29 @@ border-color: #D4A73F;
     color: inherit;
 }
 
+/* View Details */
 .solution-link{
     display:flex;
     align-items:center;
     justify-content:center;
     gap:8px;
 
-    margin-top:22px;
+    margin-top:20px;
 
-    font-size:0.92rem;
+    font-size:0.8rem;
+  transition:transform .3s ease;
     font-weight:600;
 
-    color:var(--accent-color);
+    color:#B08D57;
 
-    transition:0.3s ease;
-}
+    }
 
-.solution-link i{
+
+.solution-link .arrow{
     transition:transform .3s ease;
 }
 
-.solution-card:hover .solution-link i{
+.solution-card:hover .solution-link .arrow{
     transform:translateX(6px);
 }
 
