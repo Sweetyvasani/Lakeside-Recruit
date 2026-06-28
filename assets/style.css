@@ -1862,15 +1862,32 @@ linear-gradient(
     width:100%;
     max-width:380px;
 
+  min-height:235px;
+
+  display:flex;
+    flex-direction:column;
+
     background:#fff;
 
     border-radius:18px;
 
-    padding:28px;
+    padding:30px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.05);
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
 
     transition:.35s ease;
+
+}
+
+.promise-box p{
+
+    margin-top:auto;
+
+    color:#59667A;
+
+    font-size:1rem;
+
+    line-height:1.85;
 
 }
 
@@ -1935,13 +1952,35 @@ linear-gradient(
 
     border-radius:18px;
 
-    padding:32px 40px;
+    padding:42px 40px 32px;
 
     box-shadow:0 12px 30px rgba(0,0,0,.06);
 
   position:relative;
     margin-top:-6px;
 
+}
+
+.quote-icon{
+
+    position:absolute;
+
+    top:14px;
+    left:28px;
+
+    font-size:52px;
+
+    font-family:Georgia, serif;
+
+    font-weight:700;
+
+    color:#D4A73F;
+
+    line-height:1;
+
+    opacity:0.95;
+
+    user-select:none;
 }
 
 .promise-quote blockquote{
