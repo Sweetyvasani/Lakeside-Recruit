@@ -42,37 +42,102 @@
     align-items: center;
 }
 
+.hs-hero .hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border: 1px solid rgba(212,167,63,0.40);
+  border-radius: 999px;
+  background: rgba(212,167,63,0.08);
+  color: #d4a73f;
+    font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    box-shadow:
+    0 0 12px rgba(212,167,63,0.12),
+    0 0 24px rgba(212,167,63,0.05);
+
+  animation: eyebrowPulse 3s ease-in-out infinite;
+  }
+
+@keyframes eyebrowPulse {
+
+  0% {
+    box-shadow:
+      0 0 12px rgba(212,167,63,0.10),
+      0 0 24px rgba(212,167,63,0.04);
+  }
+
+  50% {
+    box-shadow:
+      0 0 20px rgba(212,167,63,0.25),
+      0 0 40px rgba(212,167,63,0.10);
+  }
+
+  100% {
+    box-shadow:
+      0 0 12px rgba(212,167,63,0.10),
+      0 0 24px rgba(212,167,63,0.04);
+  }
+}
+
+.eyebrow-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #D4A73F;
+  margin-right: 10px;
+
+  box-shadow:
+    0 0 8px #D4A73F,
+    0 0 16px #D4A73F;
+
+  animation: dotPulse 2s ease-in-out infinite;
+}
+
+@keyframes dotPulse {
+  50% {
+    transform: scale(1.25);
+  }
+}
+
+.hs-hero .eyebrow-text {
+    display: inline-block;
+    animation: eyebrowFloat 3s ease-in-out infinite;
+}
+
+@keyframes eyebrowFloat {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
 /*==========================================================
   LEFT CONTENT
 ==========================================================*/
 
 .hs-content{
-  max-width: 860px;
+  max-width: 950px;
     padding-left: 0;
 
 }
 
 .hs-tag{
 
-    display:inline-block;
-
-    padding:10px 22px;
-
-    border:1px solid rgba(216,167,74,.45);
-
-    border-radius:50px;
-
-    color:#F2C166;
-
-    font-size:.82rem;
-
-    font-weight:600;
-
-    letter-spacing:.12em;
-
-    text-transform:uppercase;
-
-    margin-bottom:35px;
+       margin-bottom:35px;
 }
 
 .hs-title-block{
@@ -101,7 +166,7 @@
 
 .hs-title{
     margin: 0;
-    max-width: 780px;
+    max-width: 920px;
     font-size: 4.2rem;
     line-height: 1.08;
     font-weight: 700;
@@ -190,18 +255,19 @@
 
 .hs-image-wrapper{
     display: flex;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
+   padding-left:30px;
 }
 
 .hs-image{
 
-      margin-top: 40px;
+      margin-top: -20px;
 }
 
 .hs-image img{
     width: 100%;
-    max-width: 420px;
+    max-width: 390px;
     height: 290px;
     object-fit: cover;
     object-position: center;
@@ -220,7 +286,7 @@
 );
   
   color: #0B1F3A;
-  padding: 18px 42px;
+  padding: 16px 34px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
