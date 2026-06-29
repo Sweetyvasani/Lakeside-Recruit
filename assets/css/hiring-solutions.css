@@ -378,7 +378,9 @@
 
 @media(max-width:992px){
 
-.hs-hero{
+
+   
+   .hs-hero{
 
     padding:60px 0;
 }
@@ -423,7 +425,11 @@
 
 /* HERO */
 
-.hs-hero{
+.container{
+    padding:0 18px;
+}
+   
+   .hs-hero{
     padding:40px 0 50px;
 }
 
@@ -455,7 +461,7 @@
 
     align-items:flex-start;
 
-    gap:14px;
+    gap:12px;
 
     margin:18px 0 22px;
 
@@ -473,7 +479,7 @@
 
 .hs-title{
 
-    font-size:1.75rem;
+    font-size:1.65rem;
 
     line-height:1.12;
 
@@ -507,11 +513,11 @@
 
 .hs-btn{
 
-    display:flex;
+     display:inline-flex;
 
-    justify-content:center;
+    width:auto;
 
-    width:100%;
+    max-width:100%;
 
 }
 
