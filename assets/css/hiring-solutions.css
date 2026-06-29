@@ -840,3 +840,91 @@
 }
 
 }
+
+/* =====================================================
+   WHEN TO ENGAGE US
+===================================================== */
+
+.engage-us{
+
+    background:#0F1115;
+
+    padding:70px 0 55px;
+
+}
+
+.engage-us .section-heading{
+
+    max-width:720px;
+
+    margin-bottom:45px;
+
+}
+
+.engage-us .section-heading h2{
+
+    color:#fff;
+
+}
+
+.engage-us .section-heading p{
+
+    color:rgba(255,255,255,.75);
+
+}
+
+.engage-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:22px 60px;
+
+}
+
+.engage-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+}
+
+.engage-icon{
+
+    width:34px;
+
+    height:34px;
+
+    border:1px solid rgba(210,138,23,.45);
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    flex-shrink:0;
+
+    color:#D28A17;
+
+    font-size:.9rem;
+
+}
+
+.engage-text{
+
+    color:#fff;
+
+    font-size:1.05rem;
+
+    font-weight:500;
+
+    line-height:1.5;
+
+}
