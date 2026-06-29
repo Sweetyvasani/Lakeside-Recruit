@@ -173,7 +173,7 @@
     line-height:1.08;
     font-weight:700;
     letter-spacing:-1px;
-    
+    white-space:nowrap;
 }
 
 .hs-description{
