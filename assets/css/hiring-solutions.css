@@ -855,9 +855,11 @@
 
 .engage-us .section-heading{
 
-    max-width:720px;
+    max-width:760px;
 
-    margin-bottom:40px;
+    margin:0 auto 45px;
+
+    text-align:center;
 
 }
 
@@ -870,7 +872,9 @@
 .engage-us .section-heading p{
 
     color:rgba(255,255,255,.75);
-   max-width:720px;
+   max-width:680px;
+
+   margin:18px auto 0;
 
 }
 
@@ -882,9 +886,9 @@
 
     gap:18px;
 
-   max-width:700px;
+   max-width:760px;
 
-    margin-bottom:45px;
+    margin:0 auto 55px;
 
 }
 
@@ -900,13 +904,15 @@
 
 .engage-icon{
 
-    color:#D28A17;
+    color:#C97A00;
 
-    font-size:15px;
+    font-size:19px;
 
-    margin-top:3px;
+    margin-top:2px;
 
     flex-shrink:0;
+
+   font-weight:700;
 
 }
 
@@ -947,25 +953,29 @@
 
     grid-template-columns:1fr 1fr;
 
-    border:1px solid rgba(210,138,23,.45);
+    border:1px solid rgba(210,138,23,.55);
 
     border-radius:14px;
 
     overflow:hidden;
 
-   background:rgba(255,255,255,.03);
+   background:#F5F5F2;
+
+   max-width:1080px;
+
+    margin:0 auto;
 
 }
 
 .comparison-column{
 
-    padding:36px 40px;
+    padding:42px 48px;
 
 }
 
 .comparison-column:first-child{
 
-      border-right:1px solid rgba(210,138,23,.25);
+      border-right:1px solid rgba(210,138,23,.35);
 
 }
 
@@ -983,7 +993,7 @@
 
    font-weight:600;
 
-    color:#d8d8d8;
+    color:#2B2B2B;
 
 }
 
@@ -1005,7 +1015,7 @@
 
 .comparison-column li{
 
-    color:#fff;
+     color:#444;
 
     margin-bottom:16px;
 
