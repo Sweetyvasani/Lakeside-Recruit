@@ -1209,3 +1209,234 @@ FINAL CTA
     line-height:1.8;
 
 }
+
+
+/*=========================================================
+WHEN TO ENGAGE US - VERSION 2
+=========================================================*/
+
+.engage-v2{
+
+    background:#F8F6F1;
+
+    padding:80px 0;
+
+}
+
+.engage-v2-header{
+
+    text-align:center;
+
+    max-width:760px;
+
+    margin:0 auto 60px;
+
+}
+
+.engage-v2-header h2{
+
+    color:#13233C;
+
+    margin:20px 0;
+
+}
+
+.engage-v2-header p{
+
+    color:#555;
+
+    max-width:650px;
+
+    margin:auto;
+
+}
+
+/*-----------------------------------
+CONTENT
+-----------------------------------*/
+
+.engage-v2-content{
+
+    display:grid;
+
+    grid-template-columns:40% 60%;
+
+    gap:55px;
+
+    align-items:flex-start;
+
+}
+
+/*-----------------------------------
+LEFT
+-----------------------------------*/
+
+.engage-v2-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+    padding-top:10px;
+
+}
+
+.engage-v2-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:16px;
+
+}
+
+.engage-v2-item i{
+
+    color:#D28A17;
+
+    font-size:20px;
+
+    margin-top:3px;
+
+    flex-shrink:0;
+
+}
+
+.engage-v2-item span{
+
+    color:#222;
+
+    line-height:1.7;
+
+}
+
+/*-----------------------------------
+RIGHT
+-----------------------------------*/
+
+.engage-v2-table{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    border:2px solid #D28A17;
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+}
+
+.compare-column{
+
+    padding:38px;
+
+    background:#F8F6F1;
+
+}
+
+.compare-column:first-child{
+
+    border-right:2px solid rgba(210,138,23,.45);
+
+}
+
+.compare-column.with{
+
+    background:#173F7A;
+
+}
+
+.compare-column h3{
+
+    font-size:1.45rem;
+
+    margin-bottom:22px;
+
+    color:#13233C;
+
+}
+
+.compare-column.with h3{
+
+    color:#D28A17;
+
+}
+
+.compare-column ul{
+
+    margin:0;
+
+    padding-left:18px;
+
+}
+
+.compare-column li{
+
+    margin-bottom:18px;
+
+    line-height:1.7;
+
+    color:#444;
+
+}
+
+.compare-column.with li{
+
+    color:#fff;
+
+}
+
+.compare-column li::marker{
+
+    color:#D28A17;
+
+}
+
+/*-----------------------------------
+RESPONSIVE
+-----------------------------------*/
+
+@media(max-width:991px){
+
+.engage-v2-content{
+
+    grid-template-columns:1fr;
+
+}
+
+.engage-v2-table{
+
+    margin-top:15px;
+
+}
+
+}
+
+@media(max-width:767px){
+
+.engage-v2{
+
+    padding:60px 0;
+
+}
+
+.engage-v2-table{
+
+    grid-template-columns:1fr;
+
+}
+
+.compare-column:first-child{
+
+    border-right:none;
+
+    border-bottom:2px solid rgba(210,138,23,.45);
+
+}
+
+}
