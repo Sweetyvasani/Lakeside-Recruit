@@ -429,7 +429,7 @@
    
    .hs-title{
 
-    font-size:2rem;
+    font-size:1.5rem;
     line-height:1.15;
 }
 
@@ -441,7 +441,7 @@
 
 .hs-description{
 
-    font-size:1rem;
+    font-size:0.9rem;
    max-width:100%;
 
     line-height:1.8;
@@ -456,7 +456,7 @@
 
 .hs-pill{
 
-    width:100%;
+    width:80%;
 }
 
 .hs-image img{
