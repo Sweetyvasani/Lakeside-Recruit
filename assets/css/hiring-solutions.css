@@ -1024,8 +1024,10 @@ body{
 .process-step h3{
 
    font-size:1.35rem;
-    margin-bottom:8px;
+    margin-bottom:px;
    line-height:1.2;
+    position:relative;
+    top:4px;
 
 }
 
@@ -1392,8 +1394,22 @@ RESPONSIVE
 .engage-v2{
 
     padding:60px 0;
-
+   
 }
+
+   .engage-v2-header h2{
+      font-size:1.2rem;
+    line-height:1.2;
+    margin-bottom:14px;
+   }
+
+   .engage-v2-header p{
+      font-size:.98rem;
+
+    line-height:1.7;
+
+    margin-bottom:28px;
+   }
 
 .engage-v2-table{
 
