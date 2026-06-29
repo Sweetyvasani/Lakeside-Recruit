@@ -847,7 +847,7 @@
 
 .engage-us{
 
-    background:#0F1115;
+    background:#13233C;
 
     padding:70px 0;
 
@@ -876,13 +876,15 @@
 
 .engage-list{
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:repeat(2,1fr);
+    flex-direction:column;
 
-    gap:22px 60px;
+    gap:18px;
 
-   margin-bottom:50px;
+   max-width:700px;
+
+    margin-bottom:45px;
 
 }
 
@@ -898,29 +900,13 @@
 
 .engage-icon{
 
-    width:10px;
-
-    height:10px;
-
-    border:1px solid rgba(210,138,23,.45);
-
-    border-radius:50%;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    flex-shrink:0;
-
     color:#D28A17;
 
-    font-size:.9rem;
+    font-size:15px;
 
-   background:#D28A17;
+    margin-top:3px;
 
-   margin-top:9px;
+    flex-shrink:0;
 
 }
 
@@ -961,31 +947,41 @@
 
     grid-template-columns:1fr 1fr;
 
-    border:1px solid rgba(255,255,255,.12);
+    border:1px solid rgba(210,138,23,.45);
 
     border-radius:14px;
 
     overflow:hidden;
 
+   background:rgba(255,255,255,.03);
+
 }
 
 .comparison-column{
 
-    padding:28px 34px;
+    padding:36px 40px;
 
 }
 
 .comparison-column:first-child{
 
-    border-right:1px solid rgba(255,255,255,.12);
+      border-right:1px solid rgba(210,138,23,.25);
+
+}
+
+.comparison-column:first-child li{
+
+    color:rgba(255,255,255,.82);
 
 }
 
 .comparison-column h3{
 
-    font-size:1.1rem;
+    font-size:1.35rem;
 
-    margin-bottom:18px;
+    margin-bottom:24px;
+
+   font-weight:600;
 
     color:#d8d8d8;
 
