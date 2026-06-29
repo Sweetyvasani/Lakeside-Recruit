@@ -496,11 +496,15 @@
 ========================== */
 
 .stake-grid{
-    display: grid;
-    grid-template-columns:repeat(2, 500px);
-    justify-content: center;
-    gap: 22px;
-    margin-top: 20px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:18px;
+
+    margin-top:55px;
+
 }
 
 /* ==========================
@@ -511,11 +515,11 @@
 
     background:#FFFFFF;
 
-    border:1.5px solid #4D73FF;
+    border:1.5px solid rgba(210,138,23,.55);
 
     border-radius:18px;
 
-    padding:23px 27px;
+    padding:22px 27px;
 
     transition:.35s ease;
 
@@ -527,11 +531,11 @@
 
 .stake-card:hover{
 
-    transform:translateY(-6px);
+    transform:translateY(-5px);
 
     border-color:#D4A137;
 
-    box-shadow:0 20px 40px rgba(0,0,0,.08);
+    box-shadow:0 12px 28px rgba(210,138,23,.12);
 
 }
 
@@ -568,11 +572,11 @@
 
 .stake-card h3{
 
-    font-size:1.28rem;
+    font-size:1.35rem;
 
     color:#16345A;
 
-    margin-bottom:8px;
+     margin:12px 0 10px;
 
     font-weight:700;
 
