@@ -874,7 +874,7 @@
 .engage-us .section-heading p{
 
     color:rgba(255,255,255,.75);
-   max-width:680px;
+   max-width:750px;
 
    margin:18px auto 0;
    font-size:18px;
@@ -905,9 +905,10 @@
 
     align-items:start;
 
-    width:700px;
+    width:640px;
 
     column-gap:16px;
+    margin:0 auto;
 
 }
 
