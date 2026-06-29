@@ -431,12 +431,13 @@
 
     font-size:1.5rem;
     line-height:1.15;
+      max-width:100%;
 }
 
 .hs-title-line{
 
     height:60px;
-    width:5px;
+    width:3px;
 }
 
 .hs-description{
@@ -473,6 +474,15 @@
 
     display:none;
 
+}
+
+   .hs-content{
+    padding-left:8px;
+}
+
+   .hs-eyebrow{
+    font-size:.95rem;
+    padding:12px 20px;
 }
 
 }
