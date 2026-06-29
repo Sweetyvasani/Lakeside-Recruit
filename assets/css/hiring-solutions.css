@@ -421,19 +421,30 @@
 
 @media(max-width:768px){
 
-.hs-title{
+.hs-hero{
 
-    font-size:2.3rem;
+    padding:45px 0 55px;
+
+}
+   
+   .hs-title{
+
+    font-size:2rem;
+    line-height:1.15;
 }
 
 .hs-title-line{
 
-    height:80px;
+    height:60px;
+    width:5px;
 }
 
 .hs-description{
 
     font-size:1rem;
+   max-width:100%;
+
+    line-height:1.8;
 }
 
 .hs-highlights{
@@ -451,6 +462,17 @@
 .hs-image img{
 
     height:240px;
+}
+
+.btn-primary{
+   padding:16px 28px;
+   font-size:1rem;
+}
+
+   .hs-image-wrapper{
+
+    display:none;
+
 }
 
 }
