@@ -1239,6 +1239,8 @@ WHEN TO ENGAGE US - VERSION 2
 
     margin:20px 0;
 
+   font-size: 44px;
+
 }
 
 .engage-v2-header p{
@@ -1248,6 +1250,8 @@ WHEN TO ENGAGE US - VERSION 2
     max-width:650px;
 
     margin:auto;
+
+   font-size: 18px;
 
 }
 
@@ -1279,7 +1283,7 @@ LEFT
 
     gap:28px;
 
-    padding-top:10px;
+    padding-top:55px;
 
 }
 
@@ -1335,13 +1339,13 @@ RIGHT
 
     padding:38px;
 
-    background:#F8F6F1;
+    background:#EDF4FF;
 
 }
 
 .compare-column:first-child{
 
-    border-right:2px solid rgba(210,138,23,.45);
+   border-right:2px solid rgba(210,138,23,.60);
 
 }
 
@@ -1358,6 +1362,8 @@ RIGHT
     margin-bottom:22px;
 
     color:#13233C;
+
+    font-weight:700;
 
 }
 
@@ -1394,6 +1400,13 @@ RIGHT
 .compare-column li::marker{
 
     color:#D28A17;
+
+}
+
+.search-comparison,
+.engage-v2-table{
+
+    box-shadow:0 12px 30px rgba(19,35,60,.08);
 
 }
 
