@@ -883,33 +883,21 @@
 
 .engage-list{
 
-    display:flex;
-
-    flex-direction:column;
-
-    gap:22px;
-
-   max-width:760px;
+    display:table;
 
     margin:0 auto 65px;
-
-    align-items:center;
 
 }
 
 .engage-item{
 
-    display:grid;
+    display:flex;
 
-     grid-template-columns:24px 1fr;
+    align-items:flex-start;
 
-    align-items:start;
+    gap:16px;
 
-    width:700px;
-
-    column-gap:16px;
-   
-    margin-left:70px;
+    margin-bottom:24px;
 
 }
 
