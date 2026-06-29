@@ -917,6 +917,13 @@
 
 }
 
+.engage-dot{
+    width:8px;
+    height:8px;
+    background:#D28A17;
+    border-radius:50%;
+}
+
 .engage-text{
 
     color:#fff;
@@ -926,5 +933,45 @@
     font-weight:500;
 
     line-height:1.5;
+
+}
+
+@media (max-width:991px){
+
+.engage-list{
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+
+}
+
+}
+
+@media (max-width:767px){
+
+.engage-us{
+
+    padding:60px 0 45px;
+
+}
+
+.engage-us .section-heading{
+
+    margin-bottom:35px;
+
+}
+
+.engage-item{
+
+    align-items:flex-start;
+
+}
+
+.engage-text{
+
+    font-size:1rem;
+
+}
 
 }
