@@ -481,6 +481,7 @@
     line-height:1.2;
     color:#0B1F3A;
     margin-bottom:32px;
+   
 }
 
 .stake-intro{
@@ -652,13 +653,15 @@
 .search-process .section-heading h2{
     margin-top:18px;
     margin-bottom:18px;
-   font-size:44px;
+   font-size:42px;
+   color:#0B1F3A;
 }
 
 .search-process .section-heading p{
     max-width:620px;
     margin:18px auto 0;
    font-size:18px;
+   color:#555;
 }
 
 /* Timeline */
@@ -937,7 +940,7 @@ FINAL CTA
 
 .solution-cta h2{
 
-    color:#13233C;
+    color:#0B1F3A;
 
     font-size:44px;
 
@@ -954,6 +957,8 @@ FINAL CTA
     color:#555;
 
     line-height:1.8;
+
+   font-size:18px;
 
 }
 
@@ -982,11 +987,11 @@ WHEN TO ENGAGE US - VERSION 2
 
 .engage-v2-header h2{
 
-    color:#13233C;
+    color:#0B1F3A;
 
     margin:20px 0;
 
-   font-size: 44px;
+   font-size: 42px;
 
 }
 
