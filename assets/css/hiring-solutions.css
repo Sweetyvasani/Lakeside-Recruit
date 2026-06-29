@@ -13,6 +13,7 @@
   HIRING SOLUTIONS - HERO V2
 ==========================================================*/
 
+
 .hs-hero{
     background: linear-gradient(135deg,#102743 0%,#18375E 100%);
     padding:70px 0 90px;
@@ -546,6 +547,12 @@
 .hs-image-wrapper{
 
     display:none;
+
+}
+
+   body{
+
+    overflow-x:hidden;
 
 }
 
