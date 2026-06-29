@@ -645,11 +645,13 @@
 .search-process .section-heading h2{
     margin-top:18px;
     margin-bottom:18px;
+   font-size:44px;
 }
 
 .search-process .section-heading p{
     max-width:620px;
     margin:18px auto 0;
+   font-size:18px;
 }
 
 /* Timeline */
@@ -860,7 +862,7 @@
     margin:0 auto 45px;
 
     text-align:center;
-
+   
 }
 
 .engage-us .section-heading h2{
@@ -875,6 +877,7 @@
    max-width:680px;
 
    margin:18px auto 0;
+   font-size:18px;
 
 }
 
