@@ -849,7 +849,7 @@
 
     background:#0F1115;
 
-    padding:70px 0 55px;
+    padding:70px 0;
 
 }
 
@@ -857,7 +857,7 @@
 
     max-width:720px;
 
-    margin-bottom:45px;
+    margin-bottom:40px;
 
 }
 
@@ -870,6 +870,7 @@
 .engage-us .section-heading p{
 
     color:rgba(255,255,255,.75);
+   max-width:720px;
 
 }
 
@@ -881,23 +882,25 @@
 
     gap:22px 60px;
 
+   margin-bottom:50px;
+
 }
 
 .engage-item{
 
     display:flex;
 
-    align-items:center;
+    align-items:flex-start;
 
-    gap:16px;
+    gap:14px;
 
 }
 
 .engage-icon{
 
-    width:34px;
+    width:10px;
 
-    height:34px;
+    height:10px;
 
     border:1px solid rgba(210,138,23,.45);
 
@@ -914,6 +917,22 @@
     color:#D28A17;
 
     font-size:.9rem;
+
+   background:#D28A17;
+
+   margin-top:9px;
+
+}
+
+.engage-item p{
+
+    color:#fff;
+
+    margin:0;
+
+    line-height:1.6;
+
+    font-size:1.02rem;
 
 }
 
@@ -933,6 +952,84 @@
     font-weight:500;
 
     line-height:1.5;
+
+}
+
+.search-comparison{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+}
+
+.comparison-column{
+
+    padding:28px 34px;
+
+}
+
+.comparison-column:first-child{
+
+    border-right:1px solid rgba(255,255,255,.12);
+
+}
+
+.comparison-column h3{
+
+    font-size:1.1rem;
+
+    margin-bottom:18px;
+
+    color:#d8d8d8;
+
+}
+
+.comparison-column.highlight h3{
+
+    color:#D28A17;
+
+}
+
+.comparison-column ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+.comparison-column li{
+
+    color:#fff;
+
+    margin-bottom:16px;
+
+    line-height:1.6;
+
+    position:relative;
+
+    padding-left:18px;
+
+}
+
+.comparison-column li::before{
+
+    content:"•";
+
+    position:absolute;
+
+    left:0;
+
+    color:#D28A17;
 
 }
 
@@ -971,6 +1068,32 @@
 .engage-text{
 
     font-size:1rem;
+
+}
+
+}
+
+
+
+@media (max-width:768px){
+
+.engage-list{
+
+    grid-template-columns:1fr;
+
+}
+
+.search-comparison{
+
+    grid-template-columns:1fr;
+
+}
+
+.comparison-column:first-child{
+
+    border-right:none;
+
+    border-bottom:1px solid rgba(255,255,255,.12);
 
 }
 
