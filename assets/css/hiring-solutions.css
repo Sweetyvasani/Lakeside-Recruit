@@ -905,10 +905,11 @@
 
     align-items:start;
 
-    width:640px;
+    width:700px;
 
     column-gap:16px;
-    margin:0 auto;
+   
+    margin-left:50px;
 
 }
 
