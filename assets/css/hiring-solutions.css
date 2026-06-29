@@ -888,7 +888,7 @@
 
    max-width:760px;
 
-    margin:0 auto 60px;
+    margin:0 auto 65px;
 
     align-items:center;
 
@@ -896,27 +896,31 @@
 
 .engage-item{
 
-    display:flex;
+    display:grid;
 
-    align-items:flex-start;
+     grid-template-columns:24px 1fr;
 
-    gap:14px;
+    align-items:start;
 
-   width:fit-content;
+    width:700px;
+
+    column-gap:16px;
 
 }
 
 .engage-icon{
 
-    color:#C97A00;
+    color:#D28A17;
 
-    font-size:19px;
+    font-size:20px;
 
     margin-top:2px;
 
     flex-shrink:0;
 
    font-weight:700;
+
+   line-height:1;
 
 }
 
@@ -957,7 +961,7 @@
 
     grid-template-columns:1fr 1fr;
 
-    border:1px solid rgba(210,138,23,.55);
+    border:2px solid rgba(210,138,23,.65);
 
     border-radius:14px;
 
@@ -965,7 +969,7 @@
 
    background:#F5F5F2;
 
-   max-width:1080px;
+   max-width:900px;
 
     margin:0 auto;
 
@@ -973,13 +977,13 @@
 
 .comparison-column{
 
-    padding:42px 48px;
+    padding:34px 40px;
 
 }
 
 .comparison-column:first-child{
 
-      border-right:1px solid rgba(210,138,23,.35);
+      border-right:2px solid rgba(210,138,23,.45);
 
 }
 
@@ -991,7 +995,7 @@
 
 .comparison-column h3{
 
-    font-size:1.35rem;
+    font-size:1.45rem;
 
     margin-bottom:24px;
 
@@ -1021,7 +1025,7 @@
 
          color:#3F3F3F;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 
     line-height:1.7;
 
