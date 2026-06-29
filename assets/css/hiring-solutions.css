@@ -855,11 +855,15 @@ OPTIONAL ADD-ON
 
     padding:50px 0;
 
+   margin-top:30px;
+
 }
 
 .addon-box{
 
-    max-width:980px;
+    max-width:1120px;
+
+   width:90%;
 
     margin:0 auto;
 
@@ -922,7 +926,7 @@ FINAL CTA
 
     text-align:center;
 
-    padding:90px 0;
+    padding:70px 0;
 
 }
 
@@ -957,7 +961,7 @@ WHEN TO ENGAGE US - VERSION 2
 
     background:#F8F6F1;
 
-    padding:80px 0;
+    padding:80px 0 110px;
 
 }
 
