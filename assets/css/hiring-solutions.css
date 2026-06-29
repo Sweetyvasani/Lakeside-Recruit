@@ -1107,3 +1107,68 @@
 }
 
 }
+
+
+/*=========================================
+OPTIONAL ADD-ON
+=========================================*/
+
+.optional-addon{
+
+    background:#F8F6F1;
+
+    padding:50px 0;
+
+}
+
+.addon-box{
+
+    max-width:980px;
+
+    margin:0 auto;
+
+    border:1px solid rgba(210,138,23,.35);
+
+    border-left:5px solid #D28A17;
+
+    border-radius:12px;
+
+    background:#fff;
+
+    padding:28px 34px;
+
+}
+
+.addon-badge{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:12px;
+
+    color:#D28A17;
+
+    font-weight:600;
+
+    font-size:1rem;
+
+}
+
+.addon-badge i{
+
+    font-size:18px;
+
+}
+
+.addon-box p{
+
+    margin:0;
+
+    color:#555;
+
+    line-height:1.7;
+
+}
