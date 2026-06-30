@@ -963,7 +963,8 @@ body{
 .search-process .section-heading{
 
     margin-bottom:50px;
-
+   font-size:40px;
+line-height:1.2;
 }
 
 .process-timeline{
@@ -1058,12 +1059,6 @@ body{
     margin:0 auto 28px;
 }
 
-   .section-heading h2{
-      font-size:32px;
-    line-height:1.2;
-    margin-bottom:14px;
-
-}
 }
 
 
