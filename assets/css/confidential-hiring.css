@@ -8,4 +8,12 @@
     white-space:nowrap;
 }
 
+.page-confidential .stake-grid{
+     margin-top:10px;
+}
+
+.page-confidential .stake-header{
+     margin:0 auto 55px;
+}
+
 
