@@ -1181,6 +1181,20 @@ FINAL CTA
 
 }
 
+@media (max-width:767px){
+
+.solution-cta p{
+   font-size:18px;
+    margin-bottom:30px;
+}
+
+   .solution-cta h2{
+      font-size:38px;
+      line-height:1.2;
+   }
+
+  }
+
 
 /*=========================================================
 WHEN TO ENGAGE US - VERSION 2
