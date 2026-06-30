@@ -925,7 +925,7 @@ body{
 .process-step p{
 
     font-size:.92rem;
-
+  
     color:#5f6672;
 
     line-height:1.55;
@@ -1048,14 +1048,14 @@ body{
 }
 
    .process-description{
-    font-size:0.98rem;
+    font-size:18px;
     line-height:1.65;
     max-width:315px;
     margin:0 auto 28px;
 }
 
    .section-heading h2{
-      font-size:1.2rem;
+      font-size:34px;
     line-height:1.2;
     margin-bottom:14px;
 
