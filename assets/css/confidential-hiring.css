@@ -16,4 +16,10 @@
      margin:0 auto 55px;
 }
 
+@media (max-width:768px){
+    .page-confidential .hs-title{
+        font-size:30px;
+    }
+}
+
 
