@@ -12,3 +12,15 @@
     gap:55px;
 
 }
+
+.page-rpo .engage-v2-content{
+
+    display:grid;
+
+    grid-template-columns:35% 65%;
+
+    gap:50px;
+
+    align-items:flex-start;
+
+}
