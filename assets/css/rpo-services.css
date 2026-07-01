@@ -1,0 +1,14 @@
+.page-rpo .stake-intro{
+  max-width:820px;
+}
+
+.page-rpo .process-timeline{
+
+    position:relative;
+
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+
+    gap:40px;
+
+}
