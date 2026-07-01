@@ -1,20 +1,3 @@
-.page-confidential .hs-title{
-    margin:0;
-    color: rgba(255,255,255,0.82);
-    font-size:4rem;
-    line-height:1.12;
-    font-weight:700;
-    letter-spacing:-1.2px;
-    white-space:nowrap;
-}
-
-.page-confidential .stake-grid{
-     margin-top:10px;
-}
-
-.page-confidential .stake-header{
-     margin:0 auto 55px;
-}
 
 @media (max-width:768px){
     .page-confidential .hs-title{
