@@ -767,7 +767,7 @@ body{
 
 .stake-title{
 
-    font-size:36px;
+    font-size:30px;
 
 }
 
@@ -918,7 +918,7 @@ body{
 
 .process-step h3{
 
-    font-size:1.35rem;
+    font-size:19.2px;
 
     font-weight:600;
 
@@ -1036,7 +1036,7 @@ line-height:1.2;
 
 .process-step h3{
 
-   font-size:20px;
+   font-size:19.2px;
     margin:0 0 8px;
    line-height:1.25;
     
@@ -1046,7 +1046,7 @@ line-height:1.2;
 
    margin:0;
     max-width:100%;
-   font-size:0.95rem;
+   font-size:15.68px;
     line-height:1.65;
 
 }
@@ -1434,7 +1434,7 @@ RESPONSIVE
 }
    
    .engage-v2-header h2{
-      font-size:36px;
+      font-size:30px;
     line-height:1.2;
     margin-bottom:14px;
    }
