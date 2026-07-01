@@ -1462,11 +1462,11 @@ RESPONSIVE
 }
 
     .compare-column h3{
-      font-size:22px;
+      font-size:21px;
    }
 
    .compare-column.with h3{
-      font-size:21.5px;
+      font-size:21px;
    }
 
 }
