@@ -11,6 +11,10 @@
     font-weight:700;
     }
 
+.search-process .section-heading{
+        max-width:850px;
+    }
+
 .page-contract .search-process .section-heading h2{
 max-width:850px
 }
