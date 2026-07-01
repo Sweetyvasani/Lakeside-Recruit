@@ -149,8 +149,12 @@ body{
 .hs-content{
   max-width: none;
     padding-left: 0;
-
 }
+
+.hero-break{
+    display:block;
+}
+
 
 .hs-tag{
 
@@ -595,6 +599,10 @@ body{
 
     overflow-x:hidden;
 
+}
+
+   .hero-break{
+    display:none;
 }
 
 }
