@@ -1184,12 +1184,12 @@ FINAL CTA
 @media (max-width:767px){
 
 .solution-cta p{
-   font-size:18px;
+   font-size:15.68px;
     margin-bottom:50px;
 }
 
    .solution-cta h2{
-      font-size:38px;
+      font-size:36px;
       line-height:1.2;
    }
 
@@ -1428,13 +1428,13 @@ RESPONSIVE
 }
    
    .engage-v2-header h2{
-      font-size:38px;
+      font-size:36px;
     line-height:1.2;
     margin-bottom:14px;
    }
 
    .engage-v2-header p{
-      font-size:18px;
+      font-size:15.68px;
 
     line-height:1.7;
 
