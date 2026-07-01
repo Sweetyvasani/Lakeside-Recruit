@@ -40,3 +40,16 @@
     overflow:hidden;
 
 }
+
+.page-rpo .engage-v2-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+    padding-top:27px;
+
+}
+
