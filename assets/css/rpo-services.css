@@ -17,11 +17,13 @@
 
     display:grid;
 
-    grid-template-columns:32% 68%;
+    grid-template-columns:35% 65%;
 
-    gap:45px;
+    gap:50px;
 
     align-items:flex-start;
+
+  width:1300px
 
 }
 
