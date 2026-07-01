@@ -35,7 +35,7 @@ max-width:850px
 
     display:grid;
 
-    grid-template-columns:1.1fr 1.1fr;
+    grid-template-columns:1fr 1fr;
 
     border:2px solid #D28A17;
 
