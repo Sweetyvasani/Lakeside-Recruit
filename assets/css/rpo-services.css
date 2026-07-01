@@ -23,6 +23,18 @@
 
     align-items:flex-start;
 
-   width:1300px;
+}
+
+.engage-v2-table{
+
+    display:grid;
+
+    grid-template-columns:0.85fr 1.15fr;
+
+    border:2px solid #D28A17;
+
+    border-radius:14px;
+
+    overflow:hidden;
 
 }
