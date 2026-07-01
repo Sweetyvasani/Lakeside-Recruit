@@ -1,0 +1,50 @@
+.page-contract .stake-header{
+    max-width:850px;
+}
+
+.page-contract .stake-intro{
+  max-width:850px;
+}
+
+.page-contract .hs-title{
+    font-size:4.1rem;
+    font-weight:700;
+    }
+
+.page-contract .search-process .section-heading h2{
+max-width:850px
+}
+
+.page-contract .engage-v2-content{
+
+    display:grid;
+
+    grid-template-columns:38% 62%;
+
+    gap:50px;
+
+    align-items:flex-start;
+
+}
+
+.page-contract .engage-v2-table{
+
+    display:grid;
+
+    grid-template-columns:1.1fr 0.9fr;
+
+    border:2px solid #D28A17;
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+}
+
+.page-contract .compare-column h3{
+
+    font-size:1.4rem;
+
+ }
+
+
