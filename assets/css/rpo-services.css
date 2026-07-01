@@ -17,9 +17,9 @@
 
     display:grid;
 
-    grid-template-columns:35% 65%;
+    grid-template-columns:32% 68%;
 
-    gap:50px;
+    gap:45px;
 
     align-items:flex-start;
 
