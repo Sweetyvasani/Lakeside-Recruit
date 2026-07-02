@@ -25,7 +25,7 @@
 
     display:grid;
 
-    grid-template-columns:35% 65%;
+    grid-template-columns:36% 64%;
 
     gap:50px;
 
@@ -39,7 +39,7 @@
 
     display:grid;
 
-    grid-template-columns:0.9fr 1.1fr;
+    grid-template-columns:1fr 1fr;
 
     border:2px solid #D28A17;
 
