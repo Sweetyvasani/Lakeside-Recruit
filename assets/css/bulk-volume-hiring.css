@@ -1,0 +1,61 @@
+.page-bulk .hs-title{
+    font-size:4rem;
+    font-weight:700;
+    }
+
+.page-bulk .stake-header{
+    max-width:850px;
+}
+
+.page-bulk .stake-intro{
+  max-width:850px;
+}
+
+.page-bulk .process-timeline{
+
+    position:relative;
+
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+
+    gap:55px;
+}
+
+.page-bulk .engage-v2-content{
+
+    display:grid;
+
+    grid-template-columns:35% 65%;
+
+    gap:50px;
+
+    align-items:flex-start;
+
+  width:1300px
+
+}
+
+.page-bulk .engage-v2-table{
+
+    display:grid;
+
+    grid-template-columns:0.9fr 1.1fr;
+
+    border:2px solid #D28A17;
+
+    border-radius:14px;
+
+    overflow:hidden;
+}
+
+.page-bulk .engage-v2-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+    padding-top:27px;
+
+}
