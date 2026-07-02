@@ -109,5 +109,63 @@
     font-size:15.5px;
     line-height:1.55;
 }
+
+   .page-bulk .engage-v2-content{
+    width:100%;
+    max-width:100%;
+    grid-template-columns:1fr;
+    gap:35px;
+}
+
+.page-bulk .engage-v2-list{
+    width:100%;
+    padding-top:0;
+    gap:22px;
+}
+
+.page-bulk .engage-v2-item{
+    gap:14px;
+}
+
+.page-bulk .engage-v2-item span{
+    flex:1;
+    min-width:0;
+    line-height:1.65;
+}
+
+.page-bulk .engage-v2-table{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr;
+    border-radius:12px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+.page-bulk .compare-column{
+    padding:24px;
+}
+
+.page-bulk .compare-column:first-child{
+    border-right:none;
+    border-bottom:2px solid rgba(210,138,23,.45);
+}
+
+.page-bulk .compare-column h3{
+    font-size:1.5rem;
+    line-height:1.35;
+    margin-bottom:18px;
+}
+
+.page-bulk .compare-column ul{
+    padding-left:18px;
+}
+
+.page-bulk .compare-column li{
+    font-size:15px;
+    line-height:1.7;
+    margin-bottom:14px;
+}
+
     
 }
