@@ -58,3 +58,16 @@
 
 }
 
+@media(max-width:767px){
+
+.page-rpo .engage-v2-list{
+    width:100%;
+}
+
+    .page-rpo .engage-v2-item span{
+    flex:1;
+    min-width:0;
+}
+    
+}
+
